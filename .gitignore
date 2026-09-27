@@ -1,0 +1,10 @@
+*.ydr
+*.ytd
+*.ybn
+*.ymap
+*.ytyp
+*.ymf
+*.yft
+*.rel
+*.ydd
+/server/cache
