@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="startJob" id="counter">
+        <div class="decoLine">
+            <div class="decorationLine">
+                <div class="text">Progresso do Trabalho</div>
+                <img src="assets/decoration.svg" height="17">
+            </div>
+            <div class="line"></div>
+        </div>
+
+        <div class="startBtn" id="counterValue"></div>
+    </div>
+
+    <div class="notifications"></div>
+
+    <div class="multiplayerMenu">
+        <div class="fixedSize">
+            <div class="jobTittle">
+                <div class="title">MARAVILHAS DA FLORESTA</div>
+                <div class="description">TRABALHO MULTIPLAYER</div>
+            </div>
+
+            <div class="header">
+                <div class="backgroundText">
+                    <div class="bgText">LOBBY DE LENHADOR</div>
+                    <div class="content">
+                        <div class="decorationLine">
+                            <div class="text" id="headerDecoText">LOBBY DE LENHADOR</div>
+                            <div class="decorationParent">
+                                <div class="fullHeight"></div>
+                                <img id="headerDeco" src="assets/decoration.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="startJob" id="startJob">
+                <div class="gradient"></div>
+                <div class="decoLine">
+                    <div class="decorationLine">
+                        <div class="text startJobClipPath" style="clip-path: polygon(0% 0%, 0 51%, 26% 100%, 100% 99%, 100% 0);">Iniciar</div>
+                        <img src="assets/decoration.svg" height="17">
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="startBtn" onclick="startJob()">Iniciar Trabalho!</div>
+            </div>
+
+            <div class="mainScreen">
+                <div class="tabs">
+                    <div class="tab activeTab" id="mainMenu">
+                        <img src="assets/home.svg">
+                        <div class="text">MENU PRINCIPAL</div>
+                    </div>
+                    <div class="tab" id="management">
+                        <img src="assets/management.svg">
+                        <div class="text">GERENCIAMENTO</div>
+                    </div>
+                </div>
+
+                <div class="tabsSlider">
+                    <div class="mainMenu slide" style="min-width: 410px">
+                        <div class="box" id="cloakroom">
+                            <div class="icon">
+                                <img src="assets/clothingIcon.svg" height="50px">
+                                <img src="assets/strokes.svg" height="40px">
+                            </div>
+                            <div class="content">
+                                <div class="topic">Selecionar Roupas</div>
+                                <div class="value">Roupas #<span id="clothesId">1</span></div>
+                            </div>
+
+                            <div class="switch">
+                                <div class="sliderParent">
+                                    <div class="fullHeight"></div>
+                                    <div class="activeSlider"></div>
+                                </div>
+                                <div class="switchFlex">
+                                    <div class="option" id="0">#1</div>
+                                    <div class="option" id="1">#2</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="box" id="cashPercentage">
+                            <div class="icon">
+                                <img src="assets/cash.svg" height="50px">
+                                <img src="assets/strokes.svg" height="40px">
+                            </div>
+                            <div class="content">
+                                <div class="topic">Porcentagem do seu salário</div>
+                                <div class="value"><span class="salaryPercent">100%</span></div>
+                            </div>
+                        </div>
+
+                        <div class="myTeamParent">
+                            <div class="decoLine">
+                                <div class="decorationLine">
+                                    <div class="text">SUA EQUIPE</div>
+                                    <img src="assets/decoration.svg" height="17">
+                                </div>
+                                <div class="line"></div>
+                            </div>
+
+                           <div class="myTeam"></div>
+                        </div>
+
+                        <div class="nearbyPlayersParent">
+                            <div class="decoLine">
+                                <div class="decorationLine">
+                                    <div class="text">Jogadores Próximos</div>
+                                    <img src="assets/decoration.svg" height="17">
+                                </div>
+                                <div class="line"></div>
+                            </div>
+
+                            <div class="nearbyPlayers"></div>
+                        </div>
+                    </div>
+                    <div class="management slide">
+                        <div class="decoLine">
+                            <div class="decorationLine">
+                                <div class="text">GERENCIAR EQUIPE</div>
+                                <img src="assets/decoration.svg" height="17">
+                            </div>
+                            <div class="line"></div>
+                        </div>
+
+                        <div class="manageMyTeam"></div>
+
+                        <div class="manageReward">
+                            <div class="decoLine">
+                                <div class="decorationLine">
+                                    <div class="text">GERENCIAR PERCENTUAL DE RECOMPENSA</div>
+                                    <img src="assets/decoration.svg" height="17">
+                                </div>
+                                <div class="line"></div>
+                            </div>
+
+                            <div class="teamRewards"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tutorialScreen" id="inviteScreen">
+                <div class="background">
+                    <div class="title">Convite</div>
+                    <div class="text">Você recebeu um convite para entrar na equipe de lenhador de <span class="inviterName"></span></div>
+                </div>
+
+                <div class="btns">
+                    <div class="btn closeTutorialBtn" onclick="reactInvite(true)">Aceitar Convite</div>
+                    <div class="btn dontShowTutorialBtn" onclick="reactInvite(false)">Recusar Convite</div>
+                </div>
+            </div>
+
+            <div class="tutorialScreen" id="warningScreen">
+                <div class="background">
+                    <div class="title">AVISO</div>
+                    <div class="text">Você não está em um carro da empresa, pode terminar seu trabalho, mas será cobrada uma multa.</div>
+                </div>
+
+                <div class="btns">
+                    <div class="btn closeTutorialBtn" onclick="reactWarning(true)">Aceitar Multa</div>
+                    <div class="btn dontShowTutorialBtn" onclick="reactWarning(false)">Cancelar</div>
+                </div>
+            </div>
+
+            <div class="tutorialScreen" id="tutorialScreen">
+                <div class="background">
+                    <div class="title">Tutorial de Trabalho de Lenhador</div>
+                    <div class="text"></div>
+                </div>
+                <div class="btns">
+                    <div class="btn closeTutorialBtn" onclick="closeTutorial(false)">Fechar Tutorial</div>
+                    <div class="btn dontShowTutorialBtn" onclick="closeTutorial(true)">Não Mostrar Novamente</div>
+                </div>
+            </div>
+
+            <div class="tutorialScreen" id="customScreen">
+                <div class="background" style="margin-bottom: 10px;">
+                    <img id="customImg" class="customScreenImg">
+                </div>
+                <div class="background">
+                    <div class="title" id="customScreenSubTittle"></div>
+                    <div class="text"></div>
+                </div>
+                <div class="btns">
+                    <div class="btn closeTutorialBtn" onclick="closeCustomPanel(true)" id="CustomConfirmBtn"></div>
+                    <div class="btn dontShowTutorialBtn" onclick="closeCustomPanel(false)" id="CustomCloseBtn"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

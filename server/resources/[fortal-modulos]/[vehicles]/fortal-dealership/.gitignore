@@ -1,0 +1,4 @@
+/client/nui-src/node_modules/
+/client/nui-src/bun.lockb
+/client/nui-src/tsconfig.app.tsbuildinfo
+/client/nui-src/tsconfig.node.tsbuildinfo

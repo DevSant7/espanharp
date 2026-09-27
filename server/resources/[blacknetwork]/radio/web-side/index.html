@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		<link href="css.css" rel="stylesheet" type="text/css"/>
+		<link href="voice-indicator.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<!-- Menu do rádio original -->
+		<div id="actionmenu">
+			<div class="desativar"></div>
+			<div class="ativar"></div>
+			<input id="freq" class="qtd" type="number" onKeyPress="if(this.value.length==3) return false;" spellcheck="false" value="" placeholder="001">
+		</div>
+
+		<!-- Indicador de voz -->
+		<div id="voice-indicator" class="voice-container">
+			<div class="voice-content">
+				<div class="voice-bars">
+					<div class="bar"></div>
+					<div class="bar"></div>
+					<div class="bar"></div>
+				</div>
+				<div class="speaker-info">
+					<div class="speaker-name" id="speaker-name">RMDEV</div>
+				</div>
+			</div>
+		</div>
+
+
+		<script src="jquery.js"></script>
+		<script src="voice-indicator.js"></script>
+	</body>
+</html>

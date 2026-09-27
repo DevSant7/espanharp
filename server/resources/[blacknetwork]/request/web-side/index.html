@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <div class="request" style="display: none">
+      <h1>Confirmação</h1>
+      <h2 id="value">Deseja comprar a propiedade?</h2>
+      <div class="linha"></div>
+      <div class="buttons">
+        <button id="aceitar">ACEITAR (Y)</button>
+        <button id="reject">RECUSAR (U)</button>
+      </div>
+    </div>
+    <script>
+      window.addEventListener("message", function (event) {
+        switch (event["data"]["Action"]) {
+          case "Notify":
+            if ($(".request").css("display") === "none") {
+              $(".request").css("display", "flex");
+            }
+
+            $("#value").html(`${event["data"]["Message"]}`);
+
+            break;
+
+          case "Close":
+            if ($(".request").css("display") === "flex") {
+              $(".request").css("display", "none");
+            }
+            break;
+
+          case "Y":
+            if ($(".request").css("display") === "flex") {
+              $(".request").css("display", "none");
+            }
+
+            $.post("http://Request/Sucess");
+            break;
+
+          case "U":
+            if ($(".request").css("display") === "flex") {
+              $(".request").css("display", "none");
+            }
+
+            $.post("http://Request/Failure");
+            break;
+        }
+      });
+    </script>
+  </body>
+</html>

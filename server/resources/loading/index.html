@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espanha Roleplay - Loadscreen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <video id="bg-video" autoplay loop muted playsinline>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <audio id="bg-audio" autoplay loop>
+        <source src="audio.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="overlay">
+        
+        <div class="header">
+            <div class="welcome-text">
+                <span class="small-text">Bem-vindo a</span>
+                <h1 class="server-name">Espanha Roleplay</h1>
+            </div>
+        </div>
+
+        <div class="age-rating">
+            <div class="age-box">18</div>
+            <div class="age-text">
+                <strong>Classificação indicativa:</strong>
+                <span>violência, drogas e conteúdo sexual</span>
+            </div>
+        </div>
+
+        <div class="footer-bar">
+            
+            <div class="socials">
+                <span>Redes sociais</span>
+                <div class="icons">
+                    <a href="https://instagram.com/espanharp" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://discord.gg/espanharp" target="_blank"><i class="fab fa-discord"></i></a>
+                    <a href="https://www.tiktok.com/@espanharp" target="_blank"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <div class="loading-info">
+                <div class="loading-text" id="loading-text">Estamos preparando a cidade para você...</div>
+                <div class="loading-sub" id="loading-sub">Carregando mapa da Espanha Roleplay...</div>
+            </div>
+
+            <div class="music-player">
+                <div class="music-icon"><i class="fas fa-music"></i></div>
+                <div class="music-details">
+                    <strong>Espanha Roleplay</strong>
+                    <span>Trilha sonora</span>
+                </div>
+                <div class="music-controls">
+                    <i class="fas fa-pause" id="play-pause-btn"></i>
+                    <div class="volume-control">
+                        <i class="fas fa-volume-up" id="mute-btn"></i>
+                        <input type="range" id="volume-slider" min="0" max="100" value="30">
+                    </div>
+                </div>
+            </div>
+
+            <div class="percentage" id="progress-text">0%</div>
+
+            <div class="progress-bar-container">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

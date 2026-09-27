@@ -1,0 +1,454 @@
+.records {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.vehicle {
+    width: 200px;
+}
+
+.your_score {
+    display: flex;
+
+}
+
+.line {
+    border-radius: 1px;
+    background: #FFFFFF0F;
+    width: 690px;
+    height: 1px;
+    margin-top: 23px;
+}
+
+.pos_ranking {
+    background: var(--background-color);
+    border: 1px solid var(--icon-color);
+    font-size: 15px;
+}
+
+.HWC45 {
+    display: flex;
+    color: var(--white);
+    width: 478px;
+    height: 52px;
+    margin-left: 7px;
+    flex-shrink: 0;
+    
+}
+.InfosRaces {
+    border-radius: 5px;
+    border: 1px solid var(--icon-color);
+    background: var(--background-color);
+}
+
+.MNLT34 {
+    margin-left: 20px;
+}
+
+.time {
+    text-align: end;
+    width: 55px;
+}
+
+.ranking-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.ranking-header h1 {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 65px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: -5%;
+    text-align: center;
+    vertical-align: middle;
+    color: #389EFF;
+}
+.ranking-header h1:nth-child(3) {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFFF7;
+    width: 265px;
+}
+.ranking-header p {
+    font-family: Space Grotesk;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFFA6;
+    margin-top: 30px;
+}
+
+.ranking-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center; 
+    margin-block: 30px;
+}
+
+.ranking-icon h1 {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFFD9;
+}
+
+.racersRecords {
+    width: 690px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #FFFFFF0D;    
+    border-radius: 6px;
+}
+
+.recers-title {
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF0A;
+    border-bottom: 1px solid #FFFFFF0A; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+}
+
+.recers-title h1 {
+    font-family: Space Grotesk;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 15px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: start;
+    vertical-align: middle;
+    color: #FFFFFF99;
+    width: 90px;
+}
+
+.recers-title h1:nth-child(2) {
+    font-family: Space Grotesk;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 15px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: start;
+    vertical-align: middle;
+    color: #FFFFFF99;
+    width: 170px;
+}
+.recers-title h1:nth-child(3) {
+    font-family: Space Grotesk;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 15px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF99;
+    width: 140px;
+}
+.recers-title h1:nth-child(4) {
+    font-family: Space Grotesk;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 15px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF99;
+    width: 119px;
+}
+
+.recers-user {
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF08;
+    border-bottom: 1px solid #FFFFFF0A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+}
+
+.recers2-icon {
+    width: 30px;
+    border-radius: 3px;
+    padding-block: 5px;
+    background: linear-gradient(0deg, #FFAA55, #FFAA55),
+    radial-gradient(60.03% 95.47% at 49.84% 76.67%, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid #FFFFFF26;
+    box-shadow: 0px 0px 15px 0px #FFAA5580;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.recers2-icon1 {
+    width: 30px;
+    border-radius: 3px;
+    padding-block: 5px;
+    background: linear-gradient(0deg, #A4A4A4, #A4A4A4),
+    radial-gradient(60.03% 95.47% at 49.84% 76.67%, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);    
+    border: 1px solid #FFFFFF26;
+    box-shadow: 0px 0px 15px 0px #A4A4A480;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.recers2-icon2 {
+    width: 30px;
+    border-radius: 3px;
+    padding-block: 5px;
+    background: linear-gradient(0deg, #734D39, #734D39),
+    radial-gradient(60.03% 95.47% at 49.84% 76.67%, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);    
+    border: 1px solid #FFFFFF26;
+    box-shadow: 0px 0px 15px 0px #734D3980;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recers2-icon h1,
+.recers2-icon1 h1,
+.recers2-icon2 h1 {
+    font-family: Space Grotesk;
+    font-weight: 700;
+    font-size: 16px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+.recers-main {
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.recers-player {
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.recers-playerId {
+    padding-inline: 5px;
+    padding-block: 8px;
+    background: #FFFFFF0D;
+    border: 1px solid #FFFFFF0D;
+    border-radius: 4px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.recers-player h1 {
+    font-family: Space Grotesk;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+.recers-playerId h1 {
+    font-family: Space Grotesk;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFFCC;
+}
+
+.recers-vehicle {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    margin-right: -10px;
+}
+
+.recers-vehicleTagVip {
+    background: #FFBB410D;
+    border: 1px solid #FFFFFF0D;
+    border-radius: 4px;
+    border-width: 1px;
+    padding: 8px;
+    color: #FFBB41;
+    text-transform: uppercase;
+    font-family: Space Grotesk;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 12px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+.recers-vehicleTagPremium {
+    background: #A745FD0D;
+    border: 1px solid #FFFFFF0D;
+    border-radius: 4px;
+    border-width: 1px;
+    padding: 8px;
+    color: #A745FD;
+    text-transform: uppercase;
+    font-family: Space Grotesk;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 12px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+.recers-vehicleTagComum {
+    background: #FFFFFF0D;
+    border: 1px solid #FFFFFF0D;
+    border-radius: 4px;
+    border-width: 1px;
+    padding: 8px;
+    color: #FFFFFFD9;
+    text-transform: uppercase;
+    font-family: Space Grotesk;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 12px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
+
+.recers-vehicle h1:nth-child(1) {
+    font-family: Space Grotesk;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 14px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+
+.recers-time {
+    font-family: Space Grotesk;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 15px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF99;
+    width: 119px;
+}
+
+.your-main {
+    width: 690px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.your-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.your-title h1 {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 0px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFFD9;
+}
+
+.recers2-icon3 {
+    width: 30px;
+    border-radius: 3px;
+    padding-block: 5px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)),
+    radial-gradient(60.03% 95.47% at 49.84% 76.67%, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%);    
+    border: 1px solid #FFFFFF26;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recers2-icon3 h1 {
+    font-family: Space Grotesk;
+    font-weight: 700;
+    font-size: 16px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+.your-main p:nth-child(4) {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: -5%;
+    text-align: center;
+    vertical-align: middle;
+    color: #389EFF;
+}

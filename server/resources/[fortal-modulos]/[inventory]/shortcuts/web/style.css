@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1vw;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+  background: transparent;
+}
+
+.shortcuts-main {
+  position: absolute;
+  left: 50%;
+  bottom: 4vw;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.7vw;
+}
+
+.shortcuts-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.7vw;
+}
+
+.shortcuts-title {
+  color: #ffffff;
+  font-size: 0.8vw;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.shortcuts-subtitle {
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 0.7vw;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.shortcuts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5vw;
+}
+
+.shortcut {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5.4vw;
+  height: 5.4vw;
+  border-radius: 0.3vw;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 100%);
+  border: 1px solid rgba(60, 142, 220, 0.2);
+}
+
+.shortcut.has-item {
+  border-color: rgba(60, 142, 220, 0.8);
+  background: linear-gradient(180deg, rgba(60, 142, 220, 0.15) 0%, rgba(60, 142, 220, 0.25) 100%);
+  box-shadow: 0px 0px 15px rgba(60, 142, 220, 0.3);
+}
+
+.shortcut.empty {
+  border-color: rgba(255, 255, 255, 0.07);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.shortcut img {
+  width: 3vw;
+  height: 3vw;
+  object-fit: contain;
+}
+
+/* Empty slot styling */
+.shortcut.empty .empty-number {
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 2.5vw;
+  font-weight: 400;
+  line-height: 1;
+}

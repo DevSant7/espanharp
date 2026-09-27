@@ -1,0 +1,403 @@
+.inrace {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 30px;
+  }
+  
+  .inrace-title {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+  }
+  
+  .inrace-title h1 {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: -5%;
+    vertical-align: middle;
+    color: #ffffffd9;
+  }
+  
+  .inrace-pos {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    justify-content: start;
+  }
+  
+  .inrace-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100;
+    height: 110;
+    border-radius: 6px;
+    border-width: 1px;
+    padding-top: 16px;
+    padding-right: 20px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    gap: 10px;
+    angle: 0 deg;
+    opacity: 1;
+    background: linear-gradient(91.14deg, rgba(56, 158, 255, 0.4) 0%, rgba(56, 158, 255, 0.24) 100%),
+      radial-gradient(60.03% 95.47% at 49.84% 76.67%, rgba(56, 158, 255, 0.6) 0%, rgba(56, 158, 255, 0) 100%);
+    border: 1px solid #389eff1a;
+    margin-top: 26px;
+  }
+  
+  .inrace-icon h1 {
+    font-family: Space Grotesk;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 70px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: -5%;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+  }
+  
+  .inrace-pos p {
+    font-family: Space Grotesk;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 75px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: -5%;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff8c;
+    margin-top: 14px;
+  }
+  
+  .inrace-pos p span {
+    color: #ffffffbf;
+  }
+  
+  .inrace-info {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  
+  .inrace-time {
+    width: 137;
+    height: 41;
+    border-radius: 6px;
+    border-width: 1px;
+    padding-top: 12px;
+    padding-right: 15px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    gap: 10px;
+    angle: 0 deg;
+    opacity: 1;
+    border: 1px solid #ffffff1a;
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+  }
+  
+  .inrace-time h1 {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: -5%;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+  }
+  
+  .inrace-time h1 span {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: -5%;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff80;
+  }
+  
+  .inrace-placement {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 14px;
+  }
+  
+  .placement {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .placement-user {
+    width: 337px;
+    border-radius: 6px;
+    border-width: 1px;
+    angle: 0 deg;
+    opacity: 1;
+    background: radial-gradient(60.03% 95.47% at 49.84% 76.67%, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+    border: 1px solid #ffffff0d;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .placement-pos {
+    width: 29px;
+    height: 29px;
+    border-radius: 3px;
+    border-width: 1px;
+    gap: 10px;
+    angle: 0 deg;
+    opacity: 1;
+    background: linear-gradient(0deg, #ffaa55, #ffaa55),
+      radial-gradient(60.03% 95.47% at 49.84% 76.67%, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid #ffffff0d;
+    box-shadow: 0px 0px 15px 0px #ffaa5580;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .placement-pos2 {
+    width: 29px;
+    height: 29px;
+    border-radius: 3px;
+    border-width: 1px;
+    gap: 10px;
+    angle: 0 deg;
+    opacity: 1;
+    background: linear-gradient(0deg, #acacac, #acacac),
+      radial-gradient(60.03% 95.47% at 49.84% 76.67%, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid #ffffff08;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .placement-pos3 {
+    width: 29px;
+    height: 29px;
+    border-radius: 3px;
+    border-width: 1px;
+    gap: 10px;
+    angle: 0 deg;
+    opacity: 1;
+    background: linear-gradient(0deg, #734d39, #734d39),
+      radial-gradient(60.03% 95.47% at 49.84% 76.67%, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid #ffffff08;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* APENAS ADICIONEI ESTA CLASSE PARA A BANDEIRA */
+  .placement-finished {
+    width: 29px;
+    height: 29px;
+    border-radius: 3px;
+    border-width: 1px;
+    gap: 10px;
+    angle: 0 deg;
+    opacity: 1;
+    background: linear-gradient(0deg, #00ff00, #00ff00),
+      radial-gradient(60.03% 95.47% at 49.84% 76.67%, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid #ffffff0d;
+    box-shadow: 0px 0px 15px 0px #00ff0080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .placement-pos h1,
+  .placement-pos2 h1,
+  .placement-pos3 h1 {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+  }
+  
+  .placement-colum {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+  }
+  
+  .placement-colum h1:nth-child(2) {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: -5%;
+    vertical-align: middle;
+    color: #ffffffe5;
+  }
+  
+  .placement-id {
+    height: 31px;
+    angle: 0 deg;
+    opacity: 1;
+    border-radius: 4px;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-right: 8px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    gap: 10px;
+    border: 1px solid #ffffff1a;
+    display: flex;
+    align-items: center;
+  }
+  
+  .placement-id h1 {
+    font-family: Space Grotesk;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 15px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: -5%;
+    text-align: right;
+    vertical-align: middle;
+    color: #ffffff;
+  }
+  
+  .placement-time {
+    width: 89px;
+    height: 45px;
+    angle: 0 deg;
+    opacity: 1;
+    top: 251px;
+    left: 373px;
+    border-radius: 6px;
+    border-width: 1px;
+    padding-top: 16px;
+    padding-right: 15px;
+    padding-bottom: 16px;
+    padding-left: 15px;
+    gap: 10px;
+    background: radial-gradient(60.03% 95.47% at 49.84% 76.67%, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+    border: 1px solid #ffffff1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .placement-time h1 {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: -5%;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffffb2;
+  }
+  
+  .placement-myuser {
+    width: 337px;
+    border-radius: 6px;
+    border-width: 1px;
+    angle: 0 deg;
+    opacity: 1;
+    background: linear-gradient(91.14deg, rgba(56, 158, 255, 0.2) 0%, rgba(56, 158, 255, 0.12) 100%),
+      radial-gradient(60.03% 95.47% at 49.84% 76.67%, rgba(56, 158, 255, 0.4) 0%, rgba(56, 158, 255, 0) 100%);
+    border: 1px solid #389eff1a;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .placement-mytime {
+    width: 89px;
+    height: 45px;
+    angle: 0 deg;
+    opacity: 1;
+    top: 251px;
+    left: 373px;
+    border-radius: 6px;
+    border-width: 1px;
+    padding-top: 16px;
+    padding-right: 15px;
+    padding-bottom: 16px;
+    padding-left: 15px;
+    gap: 10px;
+    background: linear-gradient(0deg, #389eff, #389eff),
+      radial-gradient(60.03% 95.47% at 49.84% 76.67%, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid #ffffff0d;
+    box-shadow: 0px 0px 15px 0px #2a52f280;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .placement-mytime h1 {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: -5%;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffffb2;
+  }
+  
+  .placement-mypos {
+    width: 29px;
+    height: 29px;
+    border-radius: 3px;
+    border-width: 1px;
+    gap: 10px;
+    angle: 0 deg;
+    opacity: 1;
+    background: linear-gradient(91.14deg, #389eff 0%, rgba(56, 158, 255, 0.6) 100%);
+    border: 1px solid #ffffff1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .placement-mypos h1 {
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    leading-trim: CAP_HEIGHT;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+  }
+  

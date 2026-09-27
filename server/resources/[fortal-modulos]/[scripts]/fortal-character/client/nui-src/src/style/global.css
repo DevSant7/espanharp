@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-color: 0, 0, 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  overflow: hidden;
+  user-select: none;
+  box-sizing: border-box;
+  border: none;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Space Grotesk";
+  /* transition: all ease 0.25s; */
+}
+
+@layer components {
+  .glow {
+    box-shadow: 0 0 0.95rem 0 rgba(var(--main-color), 0.35);
+  }
+  .bg-section {
+    background-image: radial-gradient(
+        95.47% 60.03% at 49.84% 76.67%,
+        rgba(217, 217, 217, 0.08) 0%,
+        rgba(115, 115, 115, 0) 100%
+      ),
+      linear-gradient(
+        91deg,
+        rgba(255, 255, 255, 0.02) 0%,
+        rgba(255, 255, 255, 0.01) 100%
+      );
+  }
+  .scroll-hidden::-webkit-scrollbar {
+    display: none;
+  }
+
+  .bg-gradient-primary {
+    @apply bg-gradient-to-br from-primary to-black to-[400%];
+  }
+
+  input[type=number]::-webkit-outer-spin-button,
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+html {
+  font-size: 100% !important;
+}
+
+@media screen and (max-width: 1900px) {
+  html {
+    font-size: 88% !important;
+  }
+}
+@media screen and (max-width: 1570px) {
+  html {
+    font-size: 75% !important;
+  }
+}
+@media screen and (max-width: 1450px) {
+  html {
+    font-size: 70% !important;
+  }
+}
+@media screen and (max-width: 1250px) {
+  html {
+    font-size: 60% !important;
+  }
+}
+@media screen and (max-width: 1060px) {
+  html {
+    font-size: 65% !important;
+  }
+}
+@media screen and (max-width: 960px) {
+  html {
+    font-size: 60% !important;
+  }
+}
+@media screen and (min-aspect-ratio: 21/9) {
+  html {
+    font-size: 110% !important;
+  }
+}
+@media screen and (max-height: 950px) {
+  html {
+    font-size: 90% !important;
+  }
+}
+@media screen and (max-height: 900px) {
+  html {
+    font-size: 86% !important;
+  }
+}
+@media screen and (max-height: 860px) {
+  html {
+    font-size: 80% !important;
+  }
+}
+@media screen and (max-height: 800px) {
+  html {
+    font-size: 75% !important;
+  }
+}
+@media screen and (max-height: 750px) {
+  html {
+    font-size: 60% !important;
+  }
+}
+@media screen and (max-height: 700px) {
+  html {
+    font-size: 65% !important;
+  }
+}
+@media screen and (max-height: 700px) {
+  html {
+    font-size: 60% !important;
+  }
+}
+@media screen and (max-width: 1400px) {
+  html {
+    font-size: 70% !important;
+  }
+}
+@media screen and (max-width: 1260px) {
+  html {
+    font-size: 65% !important;
+  }
+}
+@media screen and (max-width: 1180px) {
+  html {
+    font-size: 60% !important;
+  }
+}
+@media screen and (max-width: 1070px) {
+  html {
+    font-size: 55% !important;
+  }
+}
+@media screen and (max-width: 990px) {
+  html {
+    font-size: 50% !important;
+  }
+}
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 45% !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 40% !important;
+  }
+}
+@media screen and (max-width: 690px) {
+  html {
+    font-size: 35% !important;
+  }
+}
+@media screen and (max-width: 630px) {
+  html {
+    font-size: 30% !important;
+  }
+}
+@media screen and (max-width: 100px) and (max-height: 100px) {
+  html {
+    font-size: 5.5% !important;
+  }
+}

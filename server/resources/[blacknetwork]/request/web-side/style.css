@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: transparent;
+}
+
+.request {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 52px;
+  right: 50%;
+  transform: translate(50%);
+  width: 356px;
+  height: 142px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(57, 57, 57, 0.35);
+  background: rgba(16, 16, 21, 0.8);
+}
+
+h1 {
+  padding-top: 13px;
+  padding-left: 16px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+h2 {
+  padding-top: 8px;
+  padding-left: 16px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.linha {
+  margin-top: 15px;
+  margin-left: 16px;
+  width: 326px;
+  height: 1px;
+  flex-shrink: 0;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.buttons {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+  margin-left: 16px;
+}
+
+#aceitar {
+  width: 158px;
+  height: 37px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--Blue-900, #5763d0);
+  box-shadow: 0px 0px 35px 0px rgba(87, 99, 208, 0.75);
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  border: none;
+}
+
+#reject {
+  border-radius: 5px;
+  border: 1px solid #5763d0;
+  box-shadow: 0px 0px 35px 0px rgba(87, 99, 208, 0.75);
+  width: 158px;
+  height: 37px;
+  flex-shrink: 0;
+  width: 158px;
+  height: 37px;
+  flex-shrink: 0;
+  background-color: transparent;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 0.6px;
+}

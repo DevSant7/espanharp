@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+.voice-container {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  background: linear-gradient(220deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.01) 100%);
+  outline: 1px rgba(255, 255, 255, 0.1) solid;
+  outline-offset: -1px;
+  border: none;
+  animation: slideIn 0.2s ease-out;
+  z-index: 9999;
+  font-family: "Montserrat", sans-serif;
+  min-width: auto;
+  width: auto;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50%) translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-50%) translateX(0);
+  }
+}
+
+.voice-header {
+  display: none;
+}
+
+.voice-content {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.speaker-info {
+  display: flex;
+  align-items: center;
+}
+
+.speaker-name {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 700;
+  word-wrap: break-word;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.frequency-info {
+  display: none;
+}
+
+.voice-bars {
+  display: flex;
+  align-items: end;
+  gap: 2px;
+  width: 13px;
+  height: 13px;
+}
+
+.bar {
+  border-radius: 1px;
+  background: rgba(255, 255, 255, 0.65);
+  transition: all 0.1s ease;
+}
+
+.bar:nth-child(1) {
+  width: 3px;
+  height: 6px;
+}
+
+.bar:nth-child(2) {
+  width: 3px;
+  height: 10px;
+}
+
+.bar:nth-child(3) {
+  width: 3px;
+  height: 13px;
+}
+
+.voice-active .bar {
+  background: rgba(255, 255, 255, 0.9);
+  animation: voiceAnimation 0.4s ease-in-out infinite alternate;
+}
+
+@keyframes voiceAnimation {
+  0% {
+    background: rgba(255, 255, 255, 0.65);
+  }
+  100% {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+  }
+}
+
+.voice-active .bar:nth-child(1) {
+  animation-delay: 0s;
+}
+.voice-active .bar:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.voice-active .bar:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+/* Responsividade para telas menores - mantém o mesmo estilo */
+@media (max-width: 1920px) {
+  .voice-container {
+    padding: 10px;
+    border-radius: 4px;
+    gap: 10px;
+    background: linear-gradient(220deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.01) 100%);
+    outline: 1px rgba(255, 255, 255, 0.1) solid;
+    outline-offset: -1px;
+    border: none;
+  }
+
+  .voice-content {
+    gap: 10px;
+  }
+
+  .speaker-name {
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+
+  .voice-bars {
+    width: 13px;
+    height: 13px;
+    gap: 2px;
+  }
+
+  .bar:nth-child(1) {
+    width: 3px;
+    height: 6px;
+  }
+
+  .bar:nth-child(2) {
+    width: 3px;
+    height: 10px;
+  }
+
+  .bar:nth-child(3) {
+    width: 3px;
+    height: 13px;
+  }
+
+  .bar {
+    border-radius: 1px;
+  }
+}

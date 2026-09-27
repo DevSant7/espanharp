@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="OCEANIA | Banking App" />
+  <title>OCEANIA | Banking App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <script type="module" crossorigin src="/ui/dist/assets/index-Cew5X7r-.js"></script>
+  <link rel="stylesheet" crossorigin href="/ui/dist/assets/index-D8-EFF18.css">
+</head>
+
+<script>
+  // Escuta eventos do FiveM
+  window.addEventListener('message', function(event) {
+      var data = event.data;
+      if (data.type === 'refreshBanking' || data.action === 'refreshBanking') {
+          // Força o refresh da UI Vue
+          if (window.bankingApp && window.bankingApp.refreshData) {
+              window.bankingApp.refreshData();
+          } else {
+              // Se não tiver a função, recarrega a página
+              location.reload();
+          }
+      }
+  });
+</script>
+
+<body>
+  <div id="app"></div>
+
+</body>
+
+</html>
