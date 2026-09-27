@@ -1,0 +1,7 @@
+-- Este arquivo carrega ANTES de shared_announcements.lua (ordem alfabética de shared-side/*),
+-- e o outro sobrescreve por completo hudConfig.announcePresets/announceTemplates/announceDepartments
+-- (mesma marca "Europa", sem o departamento "Dono" que só existia aqui). Ou seja, tudo que estava
+-- neste arquivo já era 100% descartado em runtime -- ficou vazio de propósito, em vez de apagado,
+-- porque a exclusão de arquivo foi bloqueada pela política da ferramenta nesta sessão.
+--
+-- Fonte de verdade real: shared-side/shared_announcements.lua

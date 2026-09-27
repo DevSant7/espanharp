@@ -1,0 +1,32 @@
+[
+  {
+    "$schema": 1,
+    "name": "Haru_Levinsk",
+    "master": true,
+    "password_hash": "$2a$11$KE93PeG8ZblITm2TcaKpt.mb61sw5WvpNUNYXOi1II3AxNyELRTEC",
+    "providers": {
+      "citizenfx": {
+        "id": "Haru_Levinsk",
+        "identifier": "fivem:19841191",
+        "data": {}
+      }
+    },
+    "permissions": []
+  },
+  {
+    "$schema": 1,
+    "name": "JotaEspanha",
+    "master": false,
+    "password_hash": "$2a$11$zFQGvMZhhgrAGSeORkUil.3KwglXup3PAgE/YaqPFPGH7C3SoJ192",
+    "providers": {
+      "discord": {
+        "id": "721640359221919815",
+        "identifier": "discord:721640359221919815",
+        "data": {}
+      }
+    },
+    "permissions": [
+      "all_permissions"
+    ]
+  }
+]

@@ -19,7 +19,7 @@ Utilize o arquivo `Config.lua` para modificador os dados do sistema
 ```lua
 Config = {
     Color = {60, 142, 220}, -- Cor do servidor em formato RGB
-    AssetsUrl = "http://localhost/fortal-character/", -- URL base de onde serão chamados os assets dos modulos
+    AssetsUrl = "http://82.24.40.124/fortal-character/", -- URL base de onde serão chamados os assets dos modulos
 
     Anim = { -- Animação que será executada dentro dos modulos (troque para false caso nao queira)
         Dict = "mp_sleep",

@@ -39,7 +39,7 @@ export default function Skinshop() {
           {
             id: 1,
             image:
-              "http://127.0.0.1/character/skinshop/hat/m/1.webp",
+              "http://82.24.40.124/character/skinshop/hat/m/1.webp",
             active: true,
             texture: {
               selected: 0,
@@ -49,7 +49,7 @@ export default function Skinshop() {
           {
             id: 2,
             image:
-              "http://127.0.0.1/character/skinshop/hat/m/372189.webp",
+              "http://82.24.40.124/character/skinshop/hat/m/372189.webp",
             active: false,
             texture: {
               selected: 0,
@@ -59,7 +59,7 @@ export default function Skinshop() {
           {
             id: 3,
             image:
-              "http://127.0.0.1/character/skinshop/hat/m/3.webp",
+              "http://82.24.40.124/character/skinshop/hat/m/3.webp",
             active: false,
             texture: {
               selected: 0,
@@ -69,7 +69,7 @@ export default function Skinshop() {
           {
             id: 4,
             image:
-              "http://127.0.0.1/character/skinshop/hat/m/4.webp",
+              "http://82.24.40.124/character/skinshop/hat/m/4.webp",
             active: false,
             texture: {
               selected: 0,
@@ -79,7 +79,7 @@ export default function Skinshop() {
           {
             id: 5,
             image:
-              "http://127.0.0.1/character/skinshop/hat/m/5.webp",
+              "http://82.24.40.124/character/skinshop/hat/m/5.webp",
             active: false,
             texture: {
               selected: 0,
@@ -89,7 +89,7 @@ export default function Skinshop() {
           {
             id: 6,
             image:
-              "http://127.0.0.1/character/skinshop/hat/m/6.webp",
+              "http://82.24.40.124/character/skinshop/hat/m/6.webp",
             active: false,
             texture: {
               selected: 0,
@@ -99,7 +99,7 @@ export default function Skinshop() {
           {
             id: 7,
             image:
-              "http://127.0.0.1/character/skinshop/hat/m/7.webp",
+              "http://82.24.40.124/character/skinshop/hat/m/7.webp",
             active: false,
             texture: {
               selected: 0,
@@ -109,7 +109,7 @@ export default function Skinshop() {
           {
             id: 9,
             image:
-              "http://127.0.0.1/character/skinshop/hat/m/8.webp",
+              "http://82.24.40.124/character/skinshop/hat/m/8.webp",
             active: false,
             texture: {
               selected: 0,

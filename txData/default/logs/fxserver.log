@@ -1,0 +1,879 @@
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [624] FXServer Starting - 27/09/2026, 18:39:17         
+║             TXADMIN║ ================================================================
+║             TXADMIN║ setr "txAdmin-locale" "en"
+║             TXADMIN║ set "txAdmin-serverName" "Espanha Roleplay"
+║             TXADMIN║ set "txAdmin-checkPlayerJoin" "true"
+║             TXADMIN║ set "txAdmin-menuAlignRight" "false"
+║             TXADMIN║ set "txAdmin-menuPageKey" "Tab"
+║             TXADMIN║ set "txAdmin-playerModePtfx" "true"
+║             TXADMIN║ set "txAdmin-hideAdminInPunishments" "true"
+║             TXADMIN║ set "txAdmin-hideAdminInMessages" "false"
+║             TXADMIN║ set "txAdmin-hideDefaultAnnouncement" "false"
+║             TXADMIN║ set "txAdmin-hideDefaultDirectMessage" "false"
+║             TXADMIN║ set "txAdmin-hideDefaultWarning" "false"
+║             TXADMIN║ set "txAdmin-hideDefaultScheduledRestartWarning" "false"
+║             TXADMIN║ sets "sv_appearAllowlisted" "false"
+║             TXADMIN║ sets "sv_allowlistInstructions" ""
+║             TXADMIN║ txaEvent "configChanged" "{}"
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[           resources] Scanning resources.
+[           resources] Found 123 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.1.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[    c-scripting-core] Creating script environments for screenshot-basic
+[           resources] Started resource screenshot-basic
+[    c-scripting-core] Creating script environments for discord-screenshot
+[           resources] Started resource discord-screenshot
+[ citizen-server-impl] Couldn't find resource mqcu.
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for vrp
+[           resources] Started resource vrp
+[           resources] Started resource loading
+[    c-scripting-core] Creating script environments for config
+[           resources] Started resource config
+[    c-scripting-core] Creating script environments for oxdrive
+[           resources] Started resource oxdrive
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[    c-scripting-core] Creating script environments for vehcontrol
+[           resources] Started resource vehcontrol
+[    c-scripting-core] Creating script environments for logsystem
+[           resources] Started resource logsystem
+[    c-scripting-core] Creating script environments for PolyZone
+[           resources] Started resource PolyZone
+[resources:bsDepartam] Asset bsDepartament/genndpflame_texturas.ytd uses 17.2 MiB of physical memory.
+[resources:bsDepartam] Asset bsDepartament/qnx2_deteil_txd.ytd uses 26.6 MiB of physical memory.
+[resources:bsDepartam] Asset bsDepartament/qnx2_shell_txd.ytd uses 16.5 MiB of physical memory.
+[resources:bsDepartam] Asset bsDepartament/qnx_deteil_txd.ytd uses 22.2 MiB of physical memory.
+[resources:bsDepartam] Asset bsDepartament/w_at_ar_afgrip.ytd uses 23.0 MiB of physical memory.
+[           resources] Started resource bsDepartament (5 warnings)
+[ resources:bsFavelas] Warning: could not find client_script `client.lua` (defined in fxmanifest.lua:10)
+[ resources:bsFavelas] Warning: could not find file `interiorproxies.meta` (defined in fxmanifest.lua:6)
+[resources:bsFavelas:] Asset bsFavelas/bar.ydr uses 32.0 MiB of physical memory.
+[           resources] Started resource bsFavelas (3 warnings)
+[ resources:bsMansoes] Warning: could not find client_script `common/client.lua` (defined in fxmanifest.lua:8)
+[resources:bsMansoes:] Asset bsMansoes/app_txd.ytd uses 26.6 MiB of physical memory.
+[resources:bsMansoes:] Asset bsMansoes/brofx_01.ydr uses 26.0 MiB of physical memory.
+[resources:bsMansoes:] Asset bsMansoes/brofx_02.ydr uses 34.0 MiB of physical memory.
+[resources:bsMansoes:] Asset bsMansoes/brofx_5_drak.ydr uses 32.0 MiB of virtual memory.
+[resources:bsMansoes:] Asset bsMansoes/brofx_mansion.ydr uses 32.0 MiB of virtual memory.
+[resources:bsMansoes:] Asset bsMansoes/ch2_03c_ranch+hi.ytd uses 19.8 MiB of physical memory.
+[resources:bsMansoes:] Asset bsMansoes/dp_int_txd.ytd uses 20.0 MiB of physical memory.
+[resources:bsMansoes:] Asset bsMansoes/int_txd.ytd uses 27.4 MiB of physical memory.
+[resources:bsMansoes:] Asset bsMansoes/mm_int_2_txd.ytd uses 17.0 MiB of physical memory.
+[resources:bsMansoes:] Asset bsMansoes/patoche_archihome_text.ytd uses 39.0 MiB of physical memory.
+[resources:bsMansoes:] Asset bsMansoes/patoche_archihome_text2.ytd uses 27.0 MiB of physical memory.
+[resources:bsMansoes:] Asset bsMansoes/ressord_shell.ydr uses 24.0 MiB of virtual memory.
+[resources:bsMansoes:] Asset bsMansoes/txd4.ytd uses 128.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:bsMansoes:] Asset bsMansoes/vbh_int_txd.ytd uses 24.5 MiB of physical memory.
+[           resources] Started resource bsMansoes (15 warnings)
+[    resources:bsMaps] Warning: could not find client_script `gabz_mrpd_entitysets.lua` (defined in fxmanifest.lua:29)
+[    resources:bsMaps] Warning: could not find file `stream/*/**` (defined in fxmanifest.lua:20)
+[    resources:bsMaps] Warning: could not find file `stream/*/*/**` (defined in fxmanifest.lua:20)
+[    resources:bsMaps] Warning: could not find file `stream/*/*/*/**` (defined in fxmanifest.lua:20)
+[    resources:bsMaps] Warning: could not find file `interiorproxies.meta` (defined in fxmanifest.lua:20)
+[    resources:bsMaps] Warning: could not find file `interiorproxies2.meta` (defined in fxmanifest.lua:20)
+[    resources:bsMaps] Warning: could not find file `interiorproxies3.meta` (defined in fxmanifest.lua:20)
+[resources:bsMaps:str] Asset bsMaps/baham_shell.ydr uses 22.5 MiB of physical memory.
+[resources:bsMaps:str] Asset bsMaps/bobo_prison_lobby_glass_texture.ytd uses 28.2 MiB of physical memory.
+[resources:bsMaps:str] Asset bsMaps/bobo_prison_lobby_shell.ydr uses 16.2 MiB of physical memory.
+[resources:bsMaps:str] Asset bsMaps/ch_chint06_dlc_casino_back.ytd uses 21.5 MiB of physical memory.
+[resources:bsMaps:str] Asset bsMaps/fluorine4305_ballas_panic_txd.ytd uses 33.8 MiB of physical memory.
+[resources:bsMaps:str] Asset bsMaps/hedwig_sheriff_txd.ytd uses 17.4 MiB of physical memory.
+[resources:bsMaps:str] Asset bsMaps/italy_texture.ytd uses 16.7 MiB of physical memory.
+[resources:bsMaps:str] Asset bsMaps/lr_supermod_int_shellref.ydr uses 17.0 MiB of physical memory.
+[resources:bsMaps:str] Asset bsMaps/lr_supermod_pat12.ydr uses 20.0 MiB of physical memory.
+[resources:bsMaps:str] Asset bsMaps/lr_supermod_pat30.ydr uses 26.0 MiB of physical memory.
+[resources:bsMaps:str] Asset bsMaps/lr_supermod_pat31.ydr uses 18.0 MiB of physical memory.
+[resources:bsMaps:str] Asset bsMaps/lr_supermod_txd.ytd uses 28.1 MiB of physical memory.
+[resources:bsMaps:str] Asset bsMaps/moutnz_zonah.ytd uses 40.0 MiB of physical memory.
+[resources:bsMaps:str] Asset bsMaps/mz_carpak_shell.ydr uses 25.5 MiB of physical memory.
+[resources:bsMaps:str] Asset bsMaps/mz_pharm.ytd uses 56.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:bsMaps:str] Asset bsMaps/ranchoroom9.ydr uses 19.5 MiB of physical memory.
+[resources:bsMaps:str] Asset bsMaps/uniqx_burgershot_tex.ytd uses 22.0 MiB of physical memory.
+[resources:bsMaps:str] Asset bsMaps/v_56_ranch_shell.ydr uses 23.0 MiB of physical memory.
+[           resources] Started resource bsMaps (25 warnings)
+[    c-scripting-core] Creating script environments for bsMec
+[    c-scripting-core] Failed to load script @ThnAC/native.lua.
+[    c-scripting-core] Failed to load script @ThnAC/natives.lua.
+[resources:bsMec:stre] Asset bsMec/rfc_eastcustums_txt.ytd uses 50.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource bsMec (1 warning)
+[           resources] Started resource bsTheLost
+[resources:casinoexte] Warning: could not find file `casino_timecyc.xml` (defined in __resource.lua:7)
+[           resources] Started resource casinoexterior (1 warning)
+[           resources] Started resource vinewood_delux
+[ citizen-server-impl] You lack the required entitlement to use agscustoms_vitalecity
+[ citizen-server-impl] Couldn't start resource agscustoms_vitalecity.
+[    c-scripting-core] Creating script environments for blindados
+[    c-scripting-core] Failed to load script @vrp/lib/lib.lua.
+[resources:blindados:] Asset blindados/wrarmoredcayenne.yft uses 18.5 MiB of virtual memory.
+[resources:blindados:] Asset blindados/wrarmoredcayenne_hi.yft uses 18.5 MiB of virtual memory.
+[resources:blindados:] Asset blindados/wrarmoredgle.yft uses 23.8 MiB of virtual memory.
+[resources:blindados:] Asset blindados/wrarmoredgle_hi.yft uses 23.8 MiB of virtual memory.
+[resources:blindados:] Asset blindados/wrarmoredgls600.ytd uses 20.0 MiB of physical memory.
+[resources:blindados:] Asset blindados/wrarmoredm3g80c.yft uses 26.5 MiB of virtual memory.
+[resources:blindados:] Asset blindados/wrarmoredm3g80c_hi.yft uses 26.5 MiB of virtual memory.
+[resources:blindados:] Asset blindados/wrarmoredmacan_hi.yft uses 17.7 MiB of virtual memory.
+[resources:blindados:] Asset blindados/wrarmoredrs7.yft uses 17.6 MiB of virtual memory.
+[resources:blindados:] Asset blindados/wrarmoredrs7_hi.yft uses 17.6 MiB of virtual memory.
+[resources:blindados:] Asset blindados/wrarmoredtaycan.yft uses 19.1 MiB of virtual memory.
+[resources:blindados:] Asset blindados/wrarmoredtaycan_hi.yft uses 19.1 MiB of virtual memory.
+[resources:blindados:] Asset blindados/wrarmoredvelar_hi.yft uses 24.5 MiB of virtual memory.
+[resources:blindados:] Asset blindados/wrarmoredx7m60i.yft uses 17.5 MiB of virtual memory.
+[resources:blindados:] Asset blindados/wrarmoredx7m60i_hi.yft uses 17.5 MiB of virtual memory.
+[resources:blindados:] Asset blindados/wrbb64.yft uses 31.0 MiB of virtual memory.
+[resources:blindados:] Asset blindados/wrbb64.ytd uses 20.5 MiB of physical memory.
+[resources:blindados:] Asset blindados/wrbb64_hi.yft uses 31.0 MiB of virtual memory.
+[           resources] Started resource blindados (18 warnings)
+[  resources:bsBennys] Warning: could not find client_script `names.lua` (defined in fxmanifest.lua:5)
+[  resources:bsBennys] Warning: could not find file `data/plates/*.meta` (defined in fxmanifest.lua:7)
+[resources:bsBennys:s] Asset bsBennys/nd600lt3.ytd uses 17.0 MiB of physical memory.
+[resources:bsBennys:s] Asset bsBennys/ndguincho.yft uses 17.2 MiB of virtual memory.
+[resources:bsBennys:s] Asset bsBennys/ndguincho.ytd uses 32.0 MiB of physical memory.
+[resources:bsBennys:s] Asset bsBennys/ndguincho_hi.yft uses 17.2 MiB of virtual memory.
+[resources:bsBennys:s] Asset bsBennys/ndr1200mec.yft uses 19.8 MiB of virtual memory.
+[resources:bsBennys:s] Asset bsBennys/ndr1200mec.ytd uses 20.0 MiB of physical memory.
+[resources:bsBennys:s] Asset bsBennys/ndr1200mec_hi.yft uses 19.8 MiB of virtual memory.
+[           resources] Started resource bsBennys (9 warnings)
+[resources:bsParamedi] Warning: could not find client_script `tuning.lua` (defined in fxmanifest.lua:17)
+[resources:bsParamedi] Asset bsParamedic/Wrasprinter.ytd uses 20.5 MiB of physical memory.
+[resources:bsParamedi] Asset bsParamedic/Wrgle53.yft uses 21.0 MiB of virtual memory.
+[resources:bsParamedi] Asset bsParamedic/Wrgle53_hi.yft uses 21.0 MiB of virtual memory.
+[           resources] Started resource bsParamedic (4 warnings)
+[resources:bsVtrs2:st] Asset bsVtrs2/B412.yft uses 17.8 MiB of virtual memory.
+[resources:bsVtrs2:st] Asset bsVtrs2/B412.ytd uses 46.0 MiB of physical memory.
+[resources:bsVtrs2:st] Asset bsVtrs2/B412_hi.yft uses 17.8 MiB of virtual memory.
+[resources:bsVtrs2:st] Asset bsVtrs2/armoredgle.yft uses 23.8 MiB of virtual memory.
+[resources:bsVtrs2:st] Asset bsVtrs2/armoredgle_hi.yft uses 23.8 MiB of virtual memory.
+[resources:bsVtrs2:st] Asset bsVtrs2/armoredvelar_hi.yft uses 24.5 MiB of virtual memory.
+[resources:bsVtrs2:st] Asset bsVtrs2/bmwm3.ytd uses 22.0 MiB of physical memory.
+[resources:bsVtrs2:st] Asset bsVtrs2/jettagli.ytd uses 21.0 MiB of physical memory.
+[resources:bsVtrs2:st] Asset bsVtrs2/tundra.ytd uses 23.0 MiB of physical memory.
+[           resources] Started resource bsVtrs2 (9 warnings)
+[  resources:geralVtr] Warning: could not find file `vehiclelayouts.meta` (defined in __resource.lua:4)
+[resources:geralVtr:s] Asset geralVtr/B412.yft uses 17.8 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/B412.ytd uses 46.0 MiB of physical memory.
+[resources:geralVtr:s] Asset geralVtr/B412_hi.yft uses 17.8 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WR19ranger.yft uses 21.8 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WR19ranger.ytd uses 23.8 MiB of physical memory.
+[resources:geralVtr:s] Asset geralVtr/WR19ranger_hi.yft uses 21.8 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WRa45.ytd uses 27.0 MiB of physical memory.
+[resources:geralVtr:s] Asset geralVtr/WRa45_hi.yft uses 26.0 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WRbmwx6.yft uses 17.8 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WRbmwx6.ytd uses 18.8 MiB of physical memory.
+[resources:geralVtr:s] Asset geralVtr/WRbmwx6_hi.yft uses 17.8 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WRbmwx7.yft uses 19.7 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WRbmwx7.ytd uses 17.5 MiB of physical memory.
+[resources:geralVtr:s] Asset geralVtr/WRbmwx7_hi.yft uses 19.7 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WRclassxv2.ytd uses 21.0 MiB of physical memory.
+[resources:geralVtr:s] Asset geralVtr/WRclassxv2_hi.yft uses 27.0 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WRcrv.yft uses 23.0 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WRcrv_hi.yft uses 23.0 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WRgle.yft uses 19.8 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WRgle.ytd uses 19.8 MiB of physical memory.
+[resources:geralVtr:s] Asset geralVtr/WRgle_hi.yft uses 19.8 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WRm5.yft uses 18.2 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WRm5_hi.yft uses 18.2 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WRr1200.yft uses 19.8 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WRr1200_hi.yft uses 19.8 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WRsilverado.yft uses 20.4 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WRsilverado.ytd uses 26.0 MiB of physical memory.
+[resources:geralVtr:s] Asset geralVtr/WRsilverado_hi.yft uses 20.4 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WRsubaru.yft uses 22.0 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WRsubaru.ytd uses 24.0 MiB of physical memory.
+[resources:geralVtr:s] Asset geralVtr/WRsubaru_hi.yft uses 22.0 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WRxc90.ytd uses 24.0 MiB of physical memory.
+[resources:geralVtr:s] Asset geralVtr/WRyukon.yft uses 21.5 MiB of virtual memory.
+[resources:geralVtr:s] Asset geralVtr/WRyukon.ytd uses 17.8 MiB of physical memory.
+[resources:geralVtr:s] Asset geralVtr/WRyukon_hi.yft uses 21.5 MiB of virtual memory.
+[           resources] Started resource geralVtr (36 warnings)
+[resources:remapcarsv] Asset remapcarsv2/REMAPAQUARIO.ytd uses 48.0 MiB of physical memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPARIES.ytd uses 48.0 MiB of physical memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPCANCER.ytd uses 41.0 MiB of physical memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPCAPRICORNIO.yft uses 24.0 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPCAPRICORNIO.ytd uses 39.0 MiB of physical memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPCAPRICORNIO_hi.yft uses 24.0 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPCARROCA.ytd uses 39.0 MiB of physical memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPESCORPIAO.yft uses 28.0 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPESCORPIAO.ytd uses 84.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:remapcarsv] Asset remapcarsv2/REMAPESCORPIAO_hi.yft uses 28.0 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPGEMEOS.yft uses 29.5 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPGEMEOS.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:remapcarsv] Asset remapcarsv2/REMAPGEMEOS_hi.yft uses 29.5 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPLEAO.yft uses 22.8 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPLEAO.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:remapcarsv] Asset remapcarsv2/REMAPLEAO_hi.yft uses 22.8 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPLIBRA.yft uses 30.5 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPLIBRA.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:remapcarsv] Asset remapcarsv2/REMAPLIBRA_hi.yft uses 30.5 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPPEIXES.yft uses 16.9 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPPEIXES.ytd uses 34.0 MiB of physical memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPPEIXES_hi.yft uses 16.9 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPSAGITARIO.ytd uses 45.0 MiB of physical memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPSAOJOAO.yft uses 16.4 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPSAOJOAO.ytd uses 63.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:remapcarsv] Asset remapcarsv2/REMAPSAOJOAO_hi.yft uses 16.4 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPTOURO.yft uses 31.2 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPTOURO.ytd uses 46.0 MiB of physical memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPTOURO_hi.yft uses 31.2 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPVIRGEM.yft uses 30.8 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPVIRGEM.ytd uses 40.0 MiB of physical memory.
+[resources:remapcarsv] Asset remapcarsv2/REMAPVIRGEM_hi.yft uses 30.8 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/RMPDEF.yft uses 31.0 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/RMPDEF.ytd uses 37.0 MiB of physical memory.
+[resources:remapcarsv] Asset remapcarsv2/RMPSANGUE.yft uses 25.5 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/RMPSANGUE.ytd uses 49.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:remapcarsv] Asset remapcarsv2/RMPSANGUE_hi.yft uses 25.5 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/VALLEN2REMAP.yft uses 25.8 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/VALLEN2REMAP.ytd uses 51.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:remapcarsv] Asset remapcarsv2/VALLEN2REMAP_hi.yft uses 25.8 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/VALLEN3REMAP.yft uses 24.8 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/VALLEN3REMAP.ytd uses 51.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:remapcarsv] Asset remapcarsv2/VALLEN3REMAP_hi.yft uses 24.8 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/VALLEN4REMAP.yft uses 24.0 MiB of virtual memory.
+[resources:remapcarsv] Asset remapcarsv2/VALLEN4REMAP.ytd uses 29.0 MiB of physical memory.
+[resources:remapcarsv] Asset remapcarsv2/VALLEN4REMAP_hi.yft uses 24.0 MiB of virtual memory.
+[           resources] Started resource remapcarsv2 (46 warnings)
+[resources:remapveh:s] Asset remapveh/CDghostR36.yft uses 23.2 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/CDghostR36.ytd uses 30.0 MiB of physical memory.
+[resources:remapveh:s] Asset remapveh/CDghostR36_hi.yft uses 23.2 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/CDr35Chucky.yft uses 25.8 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/CDr35Chucky.ytd uses 21.5 MiB of physical memory.
+[resources:remapveh:s] Asset remapveh/CDr35Chucky_hi.yft uses 25.8 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/CDurusPower.yft uses 31.2 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/CDurusPower.ytd uses 18.6 MiB of physical memory.
+[resources:remapveh:s] Asset remapveh/CDurusPower_hi.yft uses 31.2 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/GNRX7SakuraV2.yft uses 23.8 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/GNRX7SakuraV2.ytd uses 31.5 MiB of physical memory.
+[resources:remapveh:s] Asset remapveh/GNRX7SakuraV2_hi.yft uses 23.8 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/GNS15FireV2.yft uses 24.0 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/GNS15FireV2.ytd uses 31.5 MiB of physical memory.
+[resources:remapveh:s] Asset remapveh/GNS15FireV2_hi.yft uses 24.0 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/NEX36ghoul.yft uses 30.8 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/NEX36ghoul.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:remapveh:s] Asset remapveh/NEX36ghoul_hi.yft uses 30.8 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/NEX3MALBEDO.yft uses 23.2 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/NEX3MALBEDO.ytd uses 24.0 MiB of physical memory.
+[resources:remapveh:s] Asset remapveh/NEX3MALBEDO_hi.yft uses 23.2 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/NEX3Mkuromi.yft uses 23.2 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/NEX3Mkuromi.ytd uses 48.0 MiB of physical memory.
+[resources:remapveh:s] Asset remapveh/NEX3Mkuromi_hi.yft uses 23.2 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/NEX8qNeon.yft uses 31.5 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/NEX8qNeon.ytd uses 56.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:remapveh:s] Asset remapveh/NEX8qNeon_hi.yft uses 31.5 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/NEXCulineon.yft uses 23.2 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/NEXCulineon.ytd uses 62.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:remapveh:s] Asset remapveh/NEXCulineon_hi.yft uses 23.2 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/NEXLABUBU.yft uses 30.0 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/NEXLABUBU.ytd uses 45.0 MiB of physical memory.
+[resources:remapveh:s] Asset remapveh/NEXLABUBU_hi.yft uses 30.0 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/cdr36kokoshibo.yft uses 23.5 MiB of virtual memory.
+[resources:remapveh:s] Asset remapveh/cdr36kokoshibo.ytd uses 25.5 MiB of physical memory.
+[resources:remapveh:s] Asset remapveh/cdr36kokoshibo_hi.yft uses 23.5 MiB of virtual memory.
+[           resources] Started resource remapveh (36 warnings)
+[  resources:speedVtr] Warning: could not find file `common/*/*` (defined in fxmanifest.lua:6)
+[resources:speedVtr:s] Asset speedVtr/VRdm1200.ytd uses 48.0 MiB of physical memory.
+[resources:speedVtr:s] Asset speedVtr/exypolicia.yft uses 25.0 MiB of virtual memory.
+[resources:speedVtr:s] Asset speedVtr/exypolicia.ytd uses 27.0 MiB of physical memory.
+[resources:speedVtr:s] Asset speedVtr/exypolicia_hi.yft uses 25.0 MiB of virtual memory.
+[resources:speedVtr:s] Asset speedVtr/polbmwhz.yft uses 16.6 MiB of virtual memory.
+[resources:speedVtr:s] Asset speedVtr/polbmwhz.ytd uses 32.0 MiB of physical memory.
+[resources:speedVtr:s] Asset speedVtr/polbmwhz_hi.yft uses 16.6 MiB of virtual memory.
+[resources:speedVtr:s] Asset speedVtr/polgt17.ytd uses 28.0 MiB of physical memory.
+[resources:speedVtr:s] Asset speedVtr/polgtr.yft uses 17.6 MiB of virtual memory.
+[resources:speedVtr:s] Asset speedVtr/polgtr.ytd uses 19.0 MiB of physical memory.
+[resources:speedVtr:s] Asset speedVtr/polgtr50.ytd uses 44.0 MiB of physical memory.
+[resources:speedVtr:s] Asset speedVtr/polgtr_hi.yft uses 17.6 MiB of virtual memory.
+[resources:speedVtr:s] Asset speedVtr/polr34.ytd uses 32.0 MiB of physical memory.
+[resources:speedVtr:s] Asset speedVtr/sw4graubomb.yft uses 32.5 MiB of virtual memory.
+[resources:speedVtr:s] Asset speedVtr/sw4graubomb.ytd uses 128.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:speedVtr:s] Asset speedVtr/sw4graubomb_hi.yft uses 32.5 MiB of virtual memory.
+[           resources] Started resource speedVtr (17 warnings)
+[    c-scripting-core] Creating script environments for vehicleAll
+[    c-scripting-core] Failed to load script @likizao_ac/client/library.lua.
+[resources:vehicleAll] Asset vehicleAll/350z.yft uses 17.9 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/audir8.yft uses 19.1 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/audir8_hi.yft uses 17.4 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/audirs6.yft uses 18.6 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/audirs6.ytd uses 24.5 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/aventador.ytd uses 19.6 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/bmwi8.yft uses 16.5 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/bmwi8.ytd uses 29.0 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/bmwm1wb.yft uses 28.0 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/bmwm1wb_hi.yft uses 28.0 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/bmwm4gts.yft uses 22.4 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/bmwm4gts_hi.yft uses 20.5 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/bmwm5e34.yft uses 16.4 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/bmwm5e34.ytd uses 22.5 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/camaro.ytd uses 21.0 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/escalade2021.yft uses 25.2 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/escalade2021_hi.yft uses 25.2 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/escaladegt900.ytd uses 28.0 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/ferrariitalia.ytd uses 16.5 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/fordmustang.yft uses 17.0 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/fordmustang.ytd uses 17.2 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/golfgti.ytd uses 16.2 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/golfmk7.yft uses 18.8 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/m8competition.yft uses 16.6 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/m8competition.ytd uses 28.0 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/mazdarx72.ytd uses 20.8 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/mercedesamg63.yft uses 21.1 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/mercedesamg63.ytd uses 20.0 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/mercedesamg63_hi.yft uses 19.0 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/mercedesg65.yft uses 16.8 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/mercedesg65.ytd uses 28.5 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/mustang1969.ytd uses 22.0 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/nissangtr50.ytd uses 32.0 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/panameramansory.yft uses 17.2 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/panameramansory.ytd uses 17.0 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/panameramansory_hi.yft uses 17.2 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/porsche911.yft uses 25.5 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/porsche911.ytd uses 19.6 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/porsche911_hi.yft uses 25.5 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/r6.yft uses 16.2 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/r6_hi.yft uses 16.2 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/rangerover.yft uses 16.3 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/rangerover.ytd uses 25.5 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/s1000rr1.ytd uses 20.8 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/skyliner34.ytd uses 23.0 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/skyliner342.yft uses 19.8 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/skyliner342_hi.yft uses 18.9 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/subarubrz.yft uses 23.1 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/subarubrz.ytd uses 23.0 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/subarubrz_hi.yft uses 23.1 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/teslamodels.yft uses 22.4 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/teslamodels.ytd uses 18.0 MiB of physical memory.
+[resources:vehicleAll] Asset vehicleAll/teslamodels_hi.yft uses 22.4 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/toyotasupra.yft uses 21.2 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/toyotasupra_hi.yft uses 19.3 MiB of virtual memory.
+[resources:vehicleAll] Asset vehicleAll/vwtouareg.ytd uses 21.0 MiB of physical memory.
+[           resources] Started resource vehicleAll (56 warnings)
+[resources:vehiclePre] Warning: could not find file `audio/rotary7/audiovconfig/rotary7_sounds.dat54.rel` (defined in fxmanifest.lua:270)
+[resources:vehiclePre] Asset vehiclePremium/180sx.yft uses 27.2 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/180sx_hi.yft uses 27.2 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/21camaro.yft uses 20.6 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/21camaro.ytd uses 32.0 MiB of physical memory.
+[resources:vehiclePre] Asset vehiclePremium/21camaro_hi.yft uses 20.6 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/2f2fgts.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehiclePre] Asset vehiclePremium/2f2fmle7.ytd uses 47.0 MiB of physical memory.
+[resources:vehiclePre] Asset vehiclePremium/2f2fs2000.ytd uses 88.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehiclePre] Asset vehiclePremium/Evoque.yft uses 24.0 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/Evoque_hi.yft uses 24.0 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/a45_wheel.ydr uses 40.0 MiB of physical memory.
+[resources:vehiclePre] Asset vehiclePremium/africa.yft uses 19.8 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/africa_hi.yft uses 19.8 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/amarok.ytd uses 21.2 MiB of physical memory.
+[resources:vehiclePre] Asset vehiclePremium/amarokkids.ytd uses 88.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehiclePre] Asset vehiclePremium/audirs7.ytd uses 39.5 MiB of physical memory.
+[resources:vehiclePre] Asset vehiclePremium/audirs7_hi.yft uses 22.5 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/bmwz4.yft uses 19.2 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/bmwz4.ytd uses 16.8 MiB of physical memory.
+[resources:vehiclePre] Asset vehiclePremium/bmwz4_hi.yft uses 22.1 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/brz.yft uses 27.5 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/brz.ytd uses 24.2 MiB of physical memory.
+[resources:vehiclePre] Asset vehiclePremium/brz_hi.yft uses 27.5 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/cls63s.yft uses 20.2 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/cls63s_hi.yft uses 20.2 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/corvettec8.yft uses 26.5 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/corvettec8.ytd uses 17.0 MiB of physical memory.
+[resources:vehiclePre] Asset vehiclePremium/corvettec8_hi.yft uses 26.5 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/dm1200.ytd uses 23.5 MiB of physical memory.
+[resources:vehiclePre] Asset vehiclePremium/dodgeram2500.yft uses 21.0 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/dodgeram2500_hi.yft uses 21.0 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/dog_R1250baby.yft uses 19.8 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/dog_R1250baby.ytd uses 20.0 MiB of physical memory.
+[resources:vehiclePre] Asset vehiclePremium/dog_R1250baby_hi.yft uses 19.8 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/enduro+hi.ytd uses 60.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehiclePre] Asset vehiclePremium/enduro.yft uses 28.2 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/enduro.ytd uses 60.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehiclePre] Asset vehiclePremium/enduro_hi.yft uses 28.2 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/f822.ytd uses 58.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehiclePre] Asset vehiclePremium/ff4wrx.ytd uses 88.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehiclePre] Asset vehiclePremium/fnflan.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehiclePre] Asset vehiclePremium/fnfmits.ytd uses 84.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehiclePre] Asset vehiclePremium/fnfmk4.ytd uses 36.0 MiB of physical memory.
+[resources:vehiclePre] Asset vehiclePremium/gle63.yft uses 32.0 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/gle63.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehiclePre] Asset vehiclePremium/gle63_hi.yft uses 32.0 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/gxa45.yft uses 19.8 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/gxa45.ytd uses 40.0 MiB of physical memory.
+[resources:vehiclePre] Asset vehiclePremium/gxa45_hi.yft uses 19.8 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/lp700.yft uses 22.5 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/lp700_hi.yft uses 22.5 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/m4clw.yft uses 22.6 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/m4clw_hi.yft uses 22.6 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/mansamgt21+hi.ytd uses 26.0 MiB of physical memory.
+[resources:vehiclePre] Asset vehiclePremium/mansamgt21.yft uses 21.1 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/mansamgt21.ytd uses 26.0 MiB of physical memory.
+[resources:vehiclePre] Asset vehiclePremium/mansamgt21_hi.yft uses 21.1 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/mansm8civil.yft uses 16.5 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/mansm8civil.ytd uses 20.8 MiB of physical memory.
+[resources:vehiclePre] Asset vehiclePremium/mansm8civil_hi.yft uses 16.5 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/mustangeleanor.ytd uses 23.8 MiB of physical memory.
+[resources:vehiclePre] Asset vehiclePremium/nissanr33tbk.yft uses 20.0 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/nissanr33tbk.ytd uses 150.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehiclePre] Asset vehiclePremium/nissanr33tbk_hi.yft uses 20.0 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/panameramansory.yft uses 17.2 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/panameramansory_hi.yft uses 17.2 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/r1250.yft uses 27.8 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/r1250_hi.yft uses 27.8 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/r820.yft uses 18.9 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/r820_hi.yft uses 18.9 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/rmodgt63.yft uses 18.2 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/rmodrover.yft uses 16.3 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/rmodrover.ytd uses 25.5 MiB of physical memory.
+[resources:vehiclePre] Asset vehiclePremium/rmodrs6r.yft uses 18.6 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/rmodrs6r.ytd uses 24.5 MiB of physical memory.
+[resources:vehiclePre] Asset vehiclePremium/s10hc.yft uses 20.6 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/s10hc_hi.yft uses 20.6 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/silvia.ytd uses 18.2 MiB of physical memory.
+[resources:vehiclePre] Asset vehiclePremium/skidoo800R.ytd uses 20.0 MiB of physical memory.
+[resources:vehiclePre] Asset vehiclePremium/stingray.yft uses 19.2 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/stingray.ytd uses 76.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehiclePre] Asset vehiclePremium/stingray_hi.yft uses 19.2 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/toyotasupra.yft uses 21.2 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/toyotasupra_hi.yft uses 19.3 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/urusd.yft uses 21.3 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/urusd_hi.yft uses 18.8 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/viper.ytd uses 124.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehiclePre] Asset vehiclePremium/viper_hi.yft uses 25.0 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/wheel_c8p_01.ydr uses 40.0 MiB of physical memory.
+[resources:vehiclePre] Asset vehiclePremium/xj6.yft uses 23.0 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/xj6_hi.yft uses 23.0 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/xxxxx.yft uses 26.3 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/xxxxx_hi.yft uses 26.3 MiB of virtual memory.
+[resources:vehiclePre] Asset vehiclePremium/z1000.ytd uses 25.0 MiB of physical memory.
+[           resources] Started resource vehiclePremium (95 warnings)
+[    c-scripting-core] Creating script environments for clothes
+[    c-scripting-core] Failed to load script @likizao_ac/client/library.lua.
+[resources:clothes:st] Asset clothes/mp_f_freemode_01_mp_f_clothes_malta^task_000_u.ydd uses 24.0 MiB of virtual memory.
+[           resources] Started resource clothes (1 warning)
+[ citizen-server-impl] You lack the required entitlement to use 17mov_BuilderJob
+[ citizen-server-impl] Couldn't start resource 17mov_BuilderJob.
+[ citizen-server-impl] You lack the required entitlement to use 17mov_Deliverer
+[ citizen-server-impl] Couldn't start resource 17mov_Deliverer.
+[ citizen-server-impl] You lack the required entitlement to use Howdy-Minigame
+[    c-resources-core] Could not start dependency Howdy-Minigame for resource 17mov_Electrician.
+[ citizen-server-impl] Couldn't start resource 17mov_Electrician.
+[ citizen-server-impl] You lack the required entitlement to use 17mov_GarbageCollector
+[ citizen-server-impl] Couldn't start resource 17mov_GarbageCollector.
+[ citizen-server-impl] You lack the required entitlement to use 17mov_Lumberjack
+[ citizen-server-impl] Couldn't start resource 17mov_Lumberjack.
+[ citizen-server-impl] You lack the required entitlement to use 17mov_WindowCleaning
+[ citizen-server-impl] Couldn't start resource 17mov_WindowCleaning.
+[    c-scripting-core] Creating script environments for Deathscreen
+[           resources] Started resource Deathscreen
+[ citizen-server-impl] You lack the required entitlement to use Howdy-Minigame
+[ citizen-server-impl] Couldn't start resource Howdy-Minigame.
+[    c-scripting-core] Creating script environments for black-carsinfo
+[           resources] Started resource black-carsinfo
+[    c-scripting-core] Creating script environments for black_domination
+[           resources] Started resource black_domination
+[    c-scripting-core] Creating script environments for black_garages_v2
+[           resources] Started resource black_garages_v2
+[    c-scripting-core] Creating script environments for black_groups
+[           resources] Started resource black_groups
+[    c-scripting-core] Creating script environments for black_identity
+[           resources] Started resource black_identity
+[           resources] Started resource maquininhaStream
+[    c-scripting-core] Creating script environments for black_maquininha
+[           resources] Started resource black_maquininha
+[    c-scripting-core] Creating script environments for black_skins
+[  script:black_skins] SCRIPT ERROR: Luraph Script:(internal): Luraph Script:(internal): Luraph Script:(internal): Luraph Script:(internal): @black_skins/server-side/core.lua:3: bad argument #1 to '?' (Lua function expected)
+[           resources] Started resource black_skins
+[    c-scripting-core] Creating script environments for bsManobras
+[           resources] Started resource bsManobras
+[    c-scripting-core] Creating script environments for crafting
+[           resources] Started resource crafting
+[    c-scripting-core] Creating script environments for dynamic
+[           resources] Started resource dynamic
+[    c-scripting-core] Creating script environments for fortal_nitro
+[           resources] Started resource fortal_nitro
+[    c-scripting-core] Creating script environments for fortal_trunkchest
+[           resources] Started resource fortal_trunkchest
+[    c-scripting-core] Creating script environments for homes
+[           resources] Started resource homes
+[    c-scripting-core] Creating script environments for homes-creative
+[           resources] Started resource homes-creative
+[ citizen-server-impl] You lack the required entitlement to use pickle_casinos
+[ citizen-server-impl] Couldn't start resource pickle_casinos.
+[    c-scripting-core] Creating script environments for routes
+[           resources] Started resource routes
+[    c-scripting-core] Creating script environments for safezone
+[           resources] Started resource safezone
+[    c-scripting-core] Creating script environments for skinshop
+[           resources] Started resource skinshop
+[    c-scripting-core] Creating script environments for talk_npc
+[     script:talk_npc] SCRIPT ERROR: Luraph Script:(internal): Luraph Script:(internal): Luraph Script:(internal): Luraph Script:(internal): @talk_npc/server.lua:3: bad argument #1 to '?' (Lua function expected)
+[           resources] Started resource talk_npc
+[    c-scripting-core] Creating script environments for target
+[           resources] Started resource target
+[    c-scripting-core] Creating script environments for weplants
+[           resources] Started resource weplants
+[    c-scripting-core] Creating script environments for works
+[           resources] Started resource works
+[           resources] Started resource NativeUI
+[           resources] Started resource animacoes
+[    c-scripting-core] Creating script environments for booster
+[           resources] Started resource booster
+[    c-scripting-core] Creating script environments for bsEmotes
+[           resources] Started resource bsEmotes
+[    c-scripting-core] Creating script environments for cinematiccam
+[           resources] Started resource cinematiccam
+[    c-scripting-core] Creating script environments for coreP
+[           resources] Started resource coreP
+[    c-scripting-core] Creating script environments for desmanche
+[           resources] Started resource desmanche
+[    c-scripting-core] Creating script environments for engine
+[           resources] Started resource engine
+[           resources] Started resource hoverfy
+[    c-scripting-core] Creating script environments for initial
+[      script:initial] Autenticado!
+[           resources] Started resource initial
+[    c-scripting-core] Creating script environments for initial_streamer
+[           resources] Started resource initial_streamer
+[           resources] Started resource keyboard
+[    c-scripting-core] Creating script environments for lscustoms
+[           resources] Started resource lscustoms
+[           resources] Started resource notebook
+[    c-scripting-core] Creating script environments for notepad
+[           resources] Started resource notepad
+[           resources] Started resource notifycall
+[           resources] Started resource notifyitens
+[    c-scripting-core] Creating script environments for painel
+[           resources] Started resource painel
+[    c-scripting-core] Creating script environments for police
+[           resources] Started resource police
+[    c-scripting-core] Creating script environments for postit
+[           resources] Started resource postit
+[    c-scripting-core] Creating script environments for radio
+[           resources] Started resource radio
+[    c-scripting-core] Creating script environments for request
+[           resources] Started resource request
+[    c-scripting-core] Creating script environments for robberys
+[           resources] Started resource robberys
+[    c-scripting-core] Creating script environments for service
+[           resources] Started resource service
+[    c-scripting-core] Creating script environments for showme
+[           resources] Started resource showme
+[           resources] Started resource sounds
+[           resources] Started resource taskbar
+[    c-scripting-core] Creating script environments for tencode
+[           resources] Started resource tencode
+[    c-scripting-core] Creating script environments for black_admin
+[           resources] Started resource black_admin
+[    c-scripting-core] Creating script environments for black_inspect
+[           resources] Started resource black_inspect
+[    c-scripting-core] Creating script environments for black_maleta
+[           resources] Started resource black_maleta
+[    c-scripting-core] Creating script environments for espanha-hud
+[           resources] Started resource espanha-hud
+[    c-scripting-core] Creating script environments for fleeca-bank
+[           resources] Started resource fleeca-bank
+[    c-scripting-core] Creating script environments for fortal-airdrop
+[           resources] Started resource fortal-airdrop
+[    c-scripting-core] Creating script environments for fortal-character
+[           resources] Started resource fortal-character
+[    c-scripting-core] Creating script environments for fortal-dealership
+[           resources] Started resource fortal-dealership
+[           resources] Started resource fortal-dui
+[    c-scripting-core] Creating script environments for fortal_admin
+[           resources] Started resource fortal_admin
+[    c-scripting-core] Creating script environments for fortal_bank
+[           resources] Started resource fortal_bank
+[    c-scripting-core] Creating script environments for fortal_chest
+[           resources] Started resource fortal_chest
+[    c-scripting-core] Creating script environments for fortal_copy
+[           resources] Started resource fortal_copy
+[    c-scripting-core] Creating script environments for fortal_dip
+[           resources] Started resource fortal_dip
+[    c-scripting-core] Creating script environments for fortal_esc
+[           resources] Started resource fortal_esc
+[    c-scripting-core] Creating script environments for fortal_hud
+[           resources] Started resource fortal_hud
+[    c-scripting-core] Creating script environments for fortal_inventory
+[           resources] Started resource fortal_inventory
+[    c-scripting-core] Creating script environments for fortal_police
+[           resources] Started resource fortal_police
+[    c-scripting-core] Creating script environments for fortal_prisao
+[           resources] Started resource fortal_prisao
+[    c-scripting-core] Creating script environments for fortal_shops
+[           resources] Started resource fortal_shops
+[    c-scripting-core] Creating script environments for fortal_wall
+[           resources] Started resource fortal_wall
+[           resources] Started resource race-dui
+[    c-scripting-core] Creating script environments for races
+[           resources] Started resource races
+[    c-scripting-core] Creating script environments for shortcuts
+[           resources] Started resource shortcuts
+[    c-scripting-core] Creating script environments for lb-phone
+[     script:lb-phone] SCRIPT ERROR: @lb-phone/server/misc/databaseChecker/databaseChecker.lua:3: attempt to index a function value (field 'ready')
+[           resources] Started resource lb-phone
+[    c-scripting-core] Creating script environments for lb-phone-banking
+[script:lb-phone-bank] [phone-banking] Server iniciado com sucesso!
+[           resources] Started resource lb-phone-banking
+[           resources] Started resource lb-phoneprop
+[ citizen-server-impl] You lack the required entitlement to use GNCarsBlackNetWork
+[ citizen-server-impl] Couldn't start resource GNCarsBlackNetWork.
+[           resources] Started resource animations
+[ citizen-server-impl] Couldn't find resource category [blindados].
+[                 cmd] Argument count mismatch (passed 5, wanted 1)
+[              server] Warning: `sv_endpointPrivacy` has been removed. Player endpoint addresses are no longer exposed on any HTTP endpoint. Please remove this ConVar from your server configuration.
+[      script:booster] API rodando na porta 3000
+[     script:lb-phone] [WARNING] You are not running the latest version, please update! (latest: 2.9.0, your version: 2.5.3)
+[     script:lb-phone] 2.9.0:
+[     script:lb-phone]   Exports:
+[     script:lb-phone]     - New export, `exports["lb-phone"]:SetPhonePartiallyVisible(0-100)`, allows you to control how much of the phone should show.
+[     script:lb-phone]     - Added a new export, `exports["lb-phone"]:ForwardCall(source, options)`, that allows you to forward a custom call before it has been answered.
+[     script:lb-phone]   InstaPic:
+[     script:lb-phone]     - Added support for Cloudflare Realtime SFU for InstaPic live, to improve performance with many viewers.
+[     script:lb-phone]     - Added a new export `exports["lb-phone"]:PostInstaPic(username, media, caption, location)`.
+[     script:lb-phone]     - The InstaPic app now gets properly reset when switching between phones with unique phones enabled.
+[     script:lb-phone]     - Fixed a rare bug that would cause a crash in DMs
+[     script:lb-phone]   Garage:
+[     script:lb-phone]     - Made garage vehicle icons configurable per car.
+[     script:lb-phone]     - Fixed the garage app being laggy with plenty of cars in it, now it uses virtualized loading.
+[     script:lb-phone]   Birdy:
+[     script:lb-phone]     - Fixed several UI bugs in the birdy app, where you couldn't see / properly scroll in Birdy comments.
+[     script:lb-phone]     - The Birdy app now gets properly reset when switching between phones with unique phones enabled.
+[     script:lb-phone]   Camera:
+[     script:lb-phone]     - Fixed a bug that would cause the rear camera in portrait mode to take landscape photos.
+[     script:lb-phone]     - Fix camera/gamerender size not rendering correctly on 5K.
+[     script:lb-phone]   Locales:
+[     script:lb-phone]     - Added missing localizations.
+[     script:lb-phone]     - Updated English (`en.json`).
+[     script:lb-phone]     - Updated German (`de.json`).
+[     script:lb-phone]     - Updated Spanish (`es.json`).
+[     script:lb-phone]     - Updated French (`fr.json`).
+[     script:lb-phone]     - Updated Hungarian (`hu.json`).
+[     script:lb-phone]     - Updated Portuguese (`pt-br.json`).
+[     script:lb-phone]     - Updated Romanian (`ro.json`).
+[     script:lb-phone]     - Updated Ukrainian (`ua.json`).
+[     script:lb-phone]   Other:
+[     script:lb-phone]     - Added support for company calls for dynamic & custom numbers.
+[     script:lb-phone]     - Fixed several UI bugs in the photos app, regarding navigation & loading.
+[     script:lb-phone]     - Fixed a bug in the message app that would open the wrong conversation at rare times.
+[     script:lb-phone]     - Fixed a bug that would duplicate individuals in the services employee list.
+[     script:lb-phone]     - Fixed a bug where the search within the Marketplace app wouldnt work properly.
+[     script:lb-phone]     - Fixed new line formatting on mails between phone & tablet.
+[     script:lb-phone]     - Fixed giving & removing item not updating on the latest version of qb-core.
+[     script:lb-phone]     - Now allows for custom form data in upload.
+[     script:lb-phone]     - Fixed a race condition in spark, which caused an error in the "spark:createAccount" callback.
+[     script:lb-phone]     - Fixed the phone scale not updating when FiveM got resized.
+[     script:lb-phone]     - Toggling airplane mode now immediately saves settings, to make the backend sync various features.
+[ citizen-server-impl] server thread hitch warning: timer interval of 182 milliseconds
+[script:black-carsinf] [BlackNetwork] - Licença verificada com sucesso
+[script:black_identit] [BlackNetwork] - Licença verificada com sucesso
+[       script:routes] SCRIPT ERROR: Luraph Script:90: Luraph Script:91: @routes/server.lua:2: attempt to perform arithmetic on a nil value (field '?')
+[      script:oxmysql] Database server connection established!
+[  script:black_admin] [BLACK-ADMIN] NENHUM GRUPO FOI ADICIONADO NA DB DE SALÁRIOS, PORTANTO OS SALÁRIOS NÃO FORAM ENTREGUES
+[script:black_dominat] [+] Configuração feita com sucesso!
+[        script:coreP] [Portas Servidor] Sistema de portas carregado e sincronizado com 0 portas.
+[      script:oxmysql] An update is available for oxmysql (current version: 2.5.2)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.14.1
+[          script:vrp]  /$$$$$$  /$$        /$$$$$$         /$$      /$$ /$$   /$$ /$$   /$$ /$$$$$$$   /$$$$$$          
+[          script:vrp] /$$__  $$ | $$       /$$__  $$       | $$$    /$$$| $$  | $$ | $$$ | $$| $$__  $$ /$$__  $$         
+[          script:vrp] | $$  \ $$| $$      | $$  \ $$       | $$$$  /$$$$| $$  | $$ | $$$$| $$| $$  \ $$| $$  \ $$         
+[          script:vrp] | $$  | $$| $$      | $$$$$$$$       | $$ $$/$$ $$| $$  | $$ | $$ $$ $$| $$  | $$| $$  | $$         
+[          script:vrp] | $$  | $$| $$      | $$__  $$       | $$  $$$| $$| $$  | $$ | $$  $$$$| $$  | $$| $$  | $$         
+[          script:vrp] | $$  | $$| $$      | $$  | $$       | $$\  $ | $$| $$  | $$ | $$\  $$$| $$  | $$| $$  | $$         
+[          script:vrp] |  $$$$$$/| $$$$$$$$| $$  | $$       | $$ \/  | $$|  $$$$$$/ | $$ \  $$| $$$$$$$/|  $$$$$$/         
+[          script:vrp]  \______/ |________/|__/  |__/      |__/     |__/ \______/ |__/  \__/|_______/  \______/          
+[          script:vrp] 
+[          script:vrp]           FIVE COMMUNITY - SISTEMA AUTENTICADO COM SUCESSO - DISCORD.GG/FIVECOMMUNITY
+[          script:vrp]             
+[     script:lb-phone] [lb-phone] Resetadas 5 baterias de celulares para 100% no banco de dados.
+║             TXADMIN║ txaEvent "adminsUpdated" "[]"
+[ citizen-server-impl] sync thread hitch warning: timer interval of 168 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 165 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 238 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 240 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 109 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 116 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 114 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 162 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 130 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 126 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 128 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 219 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 202 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 209 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 193 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 207 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 377 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 178 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 109 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 102 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 147 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 108 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 151 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 143 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 470 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 248 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 125 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 146 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 198 milliseconds
+[      script:oxmysql] [WARNING] oxdrive took 266.2712ms to execute a query!
+[      script:oxmysql]     SELECT * from `black-admin-tempban` []
+[ citizen-server-impl] sync thread hitch warning: timer interval of 275 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 204 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 139 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 120 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 155 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 228 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 128 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 127 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 269 milliseconds
+[      script:oxmysql] [WARNING] oxdrive took 127.87393ms to execute a query!
+[      script:oxmysql]     SELECT * from `black-admin-tempban` []
+[ citizen-server-impl] network thread hitch warning: timer interval of 243 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 151 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 169 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 113 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 153 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 110 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 157 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 151 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 114 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 152 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 134 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 171 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 201 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 148 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 152 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 136 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 111 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 152 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 149 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 103 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 103 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 165 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 155 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 209 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 183 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 184 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 104 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 154 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 153 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 150 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 118 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 379 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 373 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 118 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 148 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 152 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 166 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 135 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 162 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 206 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 209 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 117 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 177 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 184 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 147 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 117 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 289 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 167 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 169 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 258 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 254 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 170 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 171 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 183 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 185 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 119 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 142 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 115 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 117 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 104 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 171 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 172 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 124 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 183 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 183 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 108 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 161 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 123 milliseconds
+║             TXADMIN║ txaEvent "adminsUpdated" "[]"
+[ citizen-server-impl] server thread hitch warning: timer interval of 322 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 304 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 300 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 188 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 186 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 255 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 255 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 110 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 126 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 129 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 119 milliseconds
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] network thread hitch warning: timer interval of 151 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 164 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 134 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 112 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 166 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 127 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 107 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 151 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 106 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 102 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 124 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 283 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 279 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 117 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 104 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 118 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 128 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 162 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 131 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 126 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 123 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 159 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 117 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 106 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 107 milliseconds
+║             TXADMIN║ txaReportResources 
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 108 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 116 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 113 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 169 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 199 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 171 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 135 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 102 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 166 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 209 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 206 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 113 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 156 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 120 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 158 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 158 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 150 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 119 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 153 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 139 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 164 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 138 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 183 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 175 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 175 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 130 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 157 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 120 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 133 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 114 milliseconds

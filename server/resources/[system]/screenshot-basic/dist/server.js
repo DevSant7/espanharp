@@ -9840,7 +9840,7 @@ module.exports = {
    * Examples:
    *
    * ```
-   * this.append('Link', ['<http://localhost/>', '<http://localhost:3000/>']);
+   * this.append('Link', ['<http://82.24.40.124/>', '<http://82.24.40.124:3000/>']);
    * this.append('Set-Cookie', 'foo=bar; Path=/; HttpOnly');
    * this.append('Warning', '199 Miscellaneous warning');
    * ```

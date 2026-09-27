@@ -1,0 +1,9 @@
+================================================================
+======== txAdmin v8.1.1 atop fxserver 35245 Starting - 27/09/2026, 18:37:06
+================================================================
+[18:38:05][Haru_Levinsk] created admins file
+[18:39:17][Haru_Levinsk] Config changes: general.serverName, server.dataPath
+[18:39:17][Haru_Levinsk] Changing global/fxserver settings via setup stepper.
+[18:40:34][Haru_Levinsk] Adding user 'JotaEspanha' with {"discordId":"discord:721640359221919815","permissions":["all_permissions"]}
+[18:43:14][JotaEspanha] logged in from 186.193.148.193 via password auth
+[18:44:14][JotaEspanha] Changing own password.

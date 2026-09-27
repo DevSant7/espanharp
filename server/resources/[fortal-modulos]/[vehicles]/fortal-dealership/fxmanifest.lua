@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 
 ui_page 'client/nui/index.html' -- PROD
--- ui_page 'http://localhost:3000' -- DEV
+-- ui_page 'http://82.24.40.124:3000' -- DEV
 
 shared_scripts { 
     "@vrp/lib/utils.lua",

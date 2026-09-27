@@ -14,17 +14,17 @@ Logs = {
 				fields = {
 					{
 						name = "Administrador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Jogador",
-						value = "```" .. userSuffered.id .. " - " .. userSuffered.name .. " " .. userSuffered.surname .. "```",
+						value = "```" .. tostring(userSuffered.id) .. " - " .. tostring(userSuffered.name) .. " " .. tostring(userSuffered.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Grupo",
-						value = "```" .. args["1"] .. "```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
@@ -46,17 +46,17 @@ Logs = {
 				fields = {
 					{
 						name = "Administrador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Jogador",
-						value = "```" .. userSuffered.id .. " - " .. userSuffered.name .. " " .. userSuffered.surname .. "```",
+						value = "```" .. tostring(userSuffered.id) .. " - " .. tostring(userSuffered.name) .. " " .. tostring(userSuffered.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Grupo",
-						value = "```" .. args["1"] .. "```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
@@ -78,17 +78,17 @@ Logs = {
 				fields = {
 					{
 						name = "Administrador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Jogador",
-						value = "```" .. userSuffered.id .. " - " .. userSuffered.name .. " " .. userSuffered.surname .. "```",
+						value = "```" .. tostring(userSuffered.id) .. " - " .. tostring(userSuffered.name) .. " " .. tostring(userSuffered.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Veiculo",
-						value = "```" .. args["1"] .. "```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
@@ -110,17 +110,17 @@ Logs = {
 				fields = {
 					{
 						name = "Administrador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Jogador",
-						value = "```" .. userSuffered.id .. " - " .. userSuffered.name .. " " .. userSuffered.surname .. "```",
+						value = "```" .. tostring(userSuffered.id) .. " - " .. tostring(userSuffered.name) .. " " .. tostring(userSuffered.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Veiculo",
-						value = "```" .. args["1"] .. "```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
@@ -142,17 +142,17 @@ Logs = {
 				fields = {
 					{
 						name = "Administrador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Veiculo Spawn",
-						value = "```" ..args["1"].. "```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = false
 					},
 					{
 						name = "Coordenadas",
-						value = "```" .. (args.Coords.x) .. "," .. (args.Coords.y) .. "," .. (args.Coords.z) .. "```",
+						value = "```" .. tostring(args.Coords.x) .. "," .. tostring(args.Coords.y) .. "," .. tostring(args.Coords.z) .. "```",
 						inline = false
 					},
 					{
@@ -174,17 +174,17 @@ Logs = {
 				fields = {
 					{
 						name = "Administrador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Veiculo Deletado",
-						value = "```" ..args["1"].. "```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = false
 					},
 					{
 						name = "Coordenadas",
-						value = "```" .. args.Coords.x .. "," .. args.Coords.y .. "," .. args.Coords.z .. "```",
+						value = "```" .. tostring(args.Coords.x) .. "," .. tostring(args.Coords.y) .. "," .. tostring(args.Coords.z) .. "```",
 						inline = false
 					},
 					{
@@ -206,12 +206,12 @@ Logs = {
 				fields = {
 					{
 						name = "Administrador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Veiculo Reparado",
-						value = "```" ..args["1"].. "```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = false
 					},
 					{
@@ -233,17 +233,17 @@ Logs = {
 				fields = {
 					{
 						name = "Administrador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Jogador",
-						value = "```" .. userSuffered.id .. " - " .. userSuffered.name .. " " .. userSuffered.surname .. "```",
+						value = "```" .. tostring(userSuffered.id) .. " - " .. tostring(userSuffered.name) .. " " .. tostring(userSuffered.surname) .. "```",
 						inline = false
 					},
 					{
 						name = "Coordenadas",
-						value = "```" .. args.Coords.x .. "," .. args.Coords.y .. "," .. args.Coords.z .. "```",
+						value = "```" .. tostring(args.Coords.x) .. "," .. tostring(args.Coords.y) .. "," .. tostring(args.Coords.z) .. "```",
 						inline = false
 					},
 					{
@@ -265,12 +265,12 @@ Logs = {
 				fields = {
 					{
 						name = "Administrador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Jogador",
-						value = "```" .. userSuffered.id .. " - " .. userSuffered.name .. " " .. userSuffered.surname .. "```",
+						value = "```" .. tostring(userSuffered.id) .. " - " .. tostring(userSuffered.name) .. " " .. tostring(userSuffered.surname) .. "```",
 						inline = false
 					},
 					{
@@ -297,12 +297,12 @@ Logs = {
 				fields = {
 					{
 						name = "Administrador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Jogador",
-						value = "```" .. userSuffered.id .. " - " .. userSuffered.name .. " " .. userSuffered.surname .. "```",
+						value = "```" .. tostring(userSuffered.id) .. " - " .. tostring(userSuffered.name) .. " " .. tostring(userSuffered.surname) .. "```",
 						inline = false
 					},
 					{
@@ -324,12 +324,12 @@ Logs = {
 				fields = {
 					{
 						name = "Administrador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Coordenadas",
-						value = "```" .. args.Coords.x .. "," .. args.Coords.y .. "," .. args.Coords.z .. "```",
+						value = "```" .. tostring(args.Coords.x) .. "," .. tostring(args.Coords.y) .. "," .. tostring(args.Coords.z) .. "```",
 						inline = false
 					},
 					{
@@ -351,12 +351,12 @@ Logs = {
 				fields = {
 					{
 						name = "Staff",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Coordenadas",
-						value = "```" .. args.Coords.x .. "," .. args.Coords.y .. "," .. args.Coords.z .. "```",
+						value = "```" .. tostring(args.Coords.x) .. "," .. tostring(args.Coords.y) .. "," .. tostring(args.Coords.z) .. "```",
 						inline = false
 					},
 					{
@@ -378,17 +378,17 @@ Logs = {
 				fields = {
 					{
 						name = "Staff",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Jogador",
-						value = "```" .. userSuffered.id .. " - " .. userSuffered.name .. " " .. userSuffered.surname .. "```",
+						value = "```" .. tostring(userSuffered.id) .. " - " .. tostring(userSuffered.name) .. " " .. tostring(userSuffered.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Coordenadas",
-						value = "```" .. args.Coords.x .. "," .. args.Coords.y .. "," .. args.Coords.z .. "```",
+						value = "```" .. tostring(args.Coords.x) .. "," .. tostring(args.Coords.y) .. "," .. tostring(args.Coords.z) .. "```",
 						inline = false
 					},
 					{
@@ -410,12 +410,12 @@ Logs = {
 				fields = {
 					{
 						name = "Staff",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Coordenadas",
-						value = "```" .. args.Coords[1] .. "," .. args.Coords[2] .. "," .. args.Coords[3] .. "```",
+						value = "```" .. tostring(args.Coords[1]) .. "," .. tostring(args.Coords[2]) .. "," .. tostring(args.Coords[3]) .. "```",
 						inline = false
 					},
 					{
@@ -437,17 +437,17 @@ Logs = {
 				fields = {
 					{
 						name = "Staff",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Jogador",
-						value = "```" .. userSuffered.id .. " - " .. userSuffered.name .. " " .. userSuffered.surname .. "```",
+						value = "```" .. tostring(userSuffered.id) .. " - " .. tostring(userSuffered.name) .. " " .. tostring(userSuffered.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Coordenadas",
-						value = "```" .. args.Coords.x .. "," .. args.Coords.y .. "," .. args.Coords.z .. "```",
+						value = "```" .. tostring(args.Coords.x) .. "," .. tostring(args.Coords.y) .. "," .. tostring(args.Coords.z) .. "```",
 						inline = false
 					},
 					{
@@ -469,12 +469,12 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Emprego",
-						value = "```" .. args["1"] .. "```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
@@ -496,12 +496,12 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Emprego",
-						value = "```" .. args["1"] .. "```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
@@ -523,12 +523,12 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Emprego",
-						value = "```" .. args["1"] .. "```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
@@ -550,17 +550,17 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Tipo do roubo",
-						value = "```" .. args["1"] .. "```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
 						name = "Coordenadas",
-						value = "```" .. args.Coords.x .. "," .. args.Coords.y .. "," .. args.Coords.z .. "```",
+						value = "```" .. tostring(args.Coords.x) .. "," .. tostring(args.Coords.y) .. "," .. tostring(args.Coords.z) .. "```",
 						inline = true
 					},
 					{
@@ -582,12 +582,12 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Valor recebido",
-						value = "```" .. args["1"] .. "```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
@@ -609,12 +609,12 @@ Logs = {
 				fields = {
 					{
 						name = "Paramedico",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Jogador Tratado",
-						value = "```" .. userSuffered.id .. " - " .. userSuffered.name .. " " .. userSuffered.surname .. "```",
+						value = "```" .. tostring(userSuffered.id) .. " - " .. tostring(userSuffered.name) .. " " .. tostring(userSuffered.surname) .. "```",
 						inline = true
 					},
 					{
@@ -636,12 +636,12 @@ Logs = {
 				fields = {
 					{
 						name = "Paramedico",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Jogador Revivido",
-						value = "```" .. userSuffered.id .. " - " .. userSuffered.name .. " " .. userSuffered.surname .. "```",
+						value = "```" .. tostring(userSuffered.id) .. " - " .. tostring(userSuffered.name) .. " " .. tostring(userSuffered.surname) .. "```",
 						inline = true
 					},
 					{
@@ -658,42 +658,42 @@ Logs = {
 		embed = function(userKiller, userVictim, data)
 			local suicide = data.suicide == true
 			local description = suicide and "Jogador se suicidou ou morreu sozinho" or "Jogador foi morto por outro jogador"
-		
+
 			local fields = {
 				{
 					name = "Vítima",
-					value = string.format("```%d - %s %s\nCds: %s```",
-						userVictim.id, userVictim.name, userVictim.surname, data.victimCoords or "N/A"),
+					value = string.format("```%s - %s %s\nCds: %s```",
+						tostring(userVictim.id), tostring(userVictim.name), tostring(userVictim.surname), tostring(data.victimCoords or "N/A")),
 					inline = false
 				}
 			}
-		
+
 			if suicide then
 				table.insert(fields, {
 					name = "Motivo",
-					value = string.format("```%s```", data.reason or "Desconhecido"),
+					value = string.format("```%s```", tostring(data.reason or "Desconhecido")),
 					inline = false
 				})
 			else
 				table.insert(fields, {
 					name = "Assassino",
-					value = string.format("```%d - %s %s\nCds: %s```",
-						userKiller.id, userKiller.name, userKiller.surname, data.killerCoords or "N/A"),
+					value = string.format("```%s - %s %s\nCds: %s```",
+						tostring(userKiller.id), tostring(userKiller.name), tostring(userKiller.surname), tostring(data.killerCoords or "N/A")),
 					inline = false
 				})
 				table.insert(fields, {
 					name = "Arma",
-					value = string.format("```%s```", data.weapon or "Desconhecida"),
+					value = string.format("```%s```", tostring(data.weapon or "Desconhecida")),
 					inline = true
 				})
 			end
-		
+
 			table.insert(fields, {
 				name = "Data e Hora",
 				value = os.date("```%d/%m/%Y - %H:%M:%S```"),
 				inline = false
 			})
-		
+
 			return {
 				title = "Log de Morte",
 				description = description,
@@ -712,7 +712,7 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. "```",
+						value = "```" .. tostring(userPerformed.id) .. "```",
 						inline = true
 					},
 					{
@@ -739,17 +739,17 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " | " .. (args["5"] or "Desconhecido") .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " | " .. tostring(args["5"] or "Desconhecido") .. "```",
 						inline = true
 					},
 					{
 						name = "Motivo",
-						value = "```" .. args["1"] .. "```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
 						name = "Coordenadas",
-						value = string.format("```X: %.2f\nY: %.2f\nZ: %.2f```", args["2"] or 0.0, args["3"] or 0.0, args["4"] or 0.0),
+						value = string.format("```X: %.2f\nY: %.2f\nZ: %.2f```", tonumber(args["2"]) or 0.0, tonumber(args["3"]) or 0.0, tonumber(args["4"]) or 0.0),
 						inline = false
 					},
 					{
@@ -771,12 +771,12 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Quantidade",
-						value = "```" ..args["1"].. "```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
@@ -798,12 +798,12 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Quantidade",
-						value = "```" ..args["1"].. "```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
@@ -825,17 +825,17 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Item",
-						value = "```"..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
 						name = "Quantidade",
-						value = "```"..args["2"].."```",
+						value = "```" .. tostring(args["2"]) .. "```",
 						inline = true
 					},
 					{
@@ -857,17 +857,17 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Item",
-						value = "```"..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
 						name = "Quantidade",
-						value = "```"..args["2"].."```",
+						value = "```" .. tostring(args["2"]) .. "```",
 						inline = true
 					},
 					{
@@ -879,7 +879,7 @@ Logs = {
 			}
 		end
 	},
-	["GarageRemove"] = { -- Não Há
+	["GarageRemove"] = {
 		link = "https://discord.com/api/webhooks/1362837655368503531/s_R53jDbV9FhhkVUNDMD_ZsAe3IasijZD9l9NBJSmtV0y01XQ04n-j8c1EbNSYVXdBuE",
 		embed = function(userPerformed,userSuffered,args)
 			return {
@@ -889,12 +889,12 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Carro",
-						value = "```" ..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
@@ -906,7 +906,7 @@ Logs = {
 			}
 		end
 	},
-	["GaragePut"] = {-- Não Há
+	["GaragePut"] = {
 		link = "https://discord.com/api/webhooks/1362837799220281577/tVXyH31l3LoGtLn55rLu3g8A7E_UEd_tuAKzxtUuwuNm1I5Erm-1bllixIeAohwIZpOz",
 		embed = function(userPerformed,userSuffered,args)
 			return {
@@ -916,12 +916,12 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Carro",
-						value = "```" ..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
@@ -943,12 +943,12 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Casa",
-						value = "```" ..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
@@ -970,12 +970,12 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Casa",
-						value = "```" ..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
@@ -997,12 +997,12 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Casa",
-						value = "```" ..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
@@ -1024,12 +1024,12 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Casa",
-						value = "```" ..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
@@ -1051,22 +1051,22 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Casa",
-						value = "```" ..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = false
 					},
 					{
 						name = "Item",
-						value = "```" ..args["2"].."```",
+						value = "```" .. tostring(args["2"]) .. "```",
 						inline = true
 					},
 					{
 						name = "Quantidade",
-						value = "```" ..args["3"].."```",
+						value = "```" .. tostring(args["3"]) .. "```",
 						inline = true
 					},
 					{
@@ -1078,7 +1078,7 @@ Logs = {
 			}
 		end
 	},
-	["HomeTakeRefrigerator"] = {-- NÃO POSSUI
+	["HomeTakeRefrigerator"] = {
 		link = "https://discordapp.com/api/webhooks/1233465621199585390/2Yyf9L-7balUdPCvLjso8b4VV63Xi76PJhamNACMLWis_yZ9w714T0W6dcFLnhB7MIjd",
 		embed = function(userPerformed,userSuffered,args)
 			return {
@@ -1088,22 +1088,22 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Casa",
-						value = "```" ..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = false
 					},
 					{
 						name = "Item",
-						value = "```" ..args["2"].."```",
+						value = "```" .. tostring(args["2"]) .. "```",
 						inline = true
 					},
 					{
 						name = "Quantidade",
-						value = "```" ..args["3"].."```",
+						value = "```" .. tostring(args["3"]) .. "```",
 						inline = true
 					},
 					{
@@ -1125,22 +1125,22 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Casa",
-						value = "```" ..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = false
 					},
 					{
 						name = "Item",
-						value = "```" ..args["2"].."```",
+						value = "```" .. tostring(args["2"]) .. "```",
 						inline = true
 					},
 					{
 						name = "Quantidade",
-						value = "```" ..args["3"].."```",
+						value = "```" .. tostring(args["3"]) .. "```",
 						inline = true
 					},
 					{
@@ -1152,7 +1152,7 @@ Logs = {
 			}
 		end
 	},
-	["HomePutItRefrigerator"] = {-- NÃO POSSUI
+	["HomePutItRefrigerator"] = {
 		link = "https://discordapp.com/api/webhooks/1233465621199585390/2Yyf9L-7balUdPCvLjso8b4VV63Xi76PJhamNACMLWis_yZ9w714T0W6dcFLnhB7MIjd",
 		embed = function(userPerformed,userSuffered,args)
 			return {
@@ -1162,22 +1162,22 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Casa",
-						value = "```" ..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = false
 					},
 					{
 						name = "Item",
-						value = "```" ..args["2"].."```",
+						value = "```" .. tostring(args["2"]) .. "```",
 						inline = true
 					},
 					{
 						name = "Quantidade",
-						value = "```" ..args["3"].."```",
+						value = "```" .. tostring(args["3"]) .. "```",
 						inline = true
 					},
 					{
@@ -1199,12 +1199,12 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Casa",
-						value = "```" ..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
@@ -1226,17 +1226,17 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = false
 					},
 					{
 						name = "Item",
-						value = "```" ..args["2"].."```",
+						value = "```" .. tostring(args["2"]) .. "```",
 						inline = true
 					},
 					{
 						name = "Quantidade",
-						value = "```" ..args["3"].."```",
+						value = "```" .. tostring(args["3"]) .. "```",
 						inline = true
 					},
 					{
@@ -1258,22 +1258,22 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Carro",
-						value = "```" ..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = false
 					},
 					{
 						name = "Item",
-						value = "```" ..args["2"].."```",
+						value = "```" .. tostring(args["2"]) .. "```",
 						inline = true
 					},
 					{
 						name = "Quantidade",
-						value = "```" ..args["3"].."```",
+						value = "```" .. tostring(args["3"]) .. "```",
 						inline = true
 					},
 					{
@@ -1295,22 +1295,22 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Carro",
-						value = "```" ..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = false
 					},
 					{
 						name = "Item",
-						value = "```" ..args["2"].."```",
+						value = "```" .. tostring(args["2"]) .. "```",
 						inline = true
 					},
 					{
 						name = "Quantidade",
-						value = "```" ..args["3"].."```",
+						value = "```" .. tostring(args["3"]) .. "```",
 						inline = true
 					},
 					{
@@ -1332,12 +1332,12 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Item",
-						value = "```" ..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
@@ -1359,17 +1359,17 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Jogador Receptor",
-						value = "```" .. userSuffered.id .. " - " .. userSuffered.name .. " " .. userSuffered.surname .. "```",
+						value = "```" .. tostring(userSuffered.id) .. " - " .. tostring(userSuffered.name) .. " " .. tostring(userSuffered.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Item",
-						value = "```" ..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
@@ -1391,17 +1391,17 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = false
 					},
 					{
 						name = "Item",
-						value = "```" ..args["2"].."```",
+						value = "```" .. tostring(args["2"]) .. "```",
 						inline = true
 					},
 					{
 						name = "Quantidade",
-						value = "```" ..args["3"].."```",
+						value = "```" .. tostring(args["3"]) .. "```",
 						inline = true
 					},
 					{
@@ -1423,17 +1423,17 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Item",
-						value = "```" ..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
 						name = "Coordenadas",
-						value = "```" .. args.Coords.x .. "," .. args.Coords.y .. "," .. args.Coords.z .. "```",
+						value = "```" .. tostring(args.Coords.x) .. "," .. tostring(args.Coords.y) .. "," .. tostring(args.Coords.z) .. "```",
 						inline = false
 					},
 					{
@@ -1455,17 +1455,17 @@ Logs = {
 				fields = {
 					{
 						name = "Staff",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Item",
-						value = "```"..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
 						name = "Quantidade",
-						value = "```"..args["2"].."```",
+						value = "```" .. tostring(args["2"]) .. "```",
 						inline = true
 					},
 					{
@@ -1487,12 +1487,12 @@ Logs = {
 				fields = {
 					{
 						name = "Staff",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Jogador",
-						value = "```" .. userSuffered.id .. " - " .. userSuffered.name .. " " .. userSuffered.surname .. "```",
+						value = "```" .. tostring(userSuffered.id) .. " - " .. tostring(userSuffered.name) .. " " .. tostring(userSuffered.surname) .. "```",
 						inline = true
 					},
 					{
@@ -1514,12 +1514,12 @@ Logs = {
 				fields = {
 					{
 						name = "Staff",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Item",
-						value = "```" ..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
@@ -1540,21 +1540,21 @@ Logs = {
 				color = WebHookColor,
 				fields = {
 					{
-					name = "Jogador",
-					value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
-					inline = true
+						name = "Jogador",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
+						inline = true
 					},
 					{
-					name = "Carro",
-					value = "```" .. args["1"] .."```",
-					inline = false
+						name = "Carro",
+						value = "```" .. tostring(args["1"]) .. "```",
+						inline = false
 					},
 					{
 						name = "",
 						value = os.date("\n[Data]: %d/%m/%Y [Hora]: %H:%M:%S"),
 						inline = false
 					}
-				}	
+				}
 			}
 		end
 	},
@@ -1567,21 +1567,21 @@ Logs = {
 				color = WebHookColor,
 				fields = {
 					{
-					name = "Jogador",
-					value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
-					inline = true
+						name = "Jogador",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
+						inline = true
 					},
 					{
-					name = "Carro",
-					value = "```" .. args["1"] .. "```",
-					inline = false
+						name = "Carro",
+						value = "```" .. tostring(args["1"]) .. "```",
+						inline = false
 					},
 					{
 						name = "",
 						value = os.date("\n[Data]: %d/%m/%Y [Hora]: %H:%M:%S"),
 						inline = false
 					}
-				}	
+				}
 			}
 		end
 	},
@@ -1594,21 +1594,21 @@ Logs = {
 				color = WebHookColor,
 				fields = {
 					{
-					name = "Jogador",
-					value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
-					inline = true
+						name = "Jogador",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
+						inline = true
 					},
 					{
-					name = "Quantidade",
-					value = "```" .. args["1"] .. "```",
-					inline = true
+						name = "Quantidade",
+						value = "```" .. tostring(args["1"]) .. "```",
+						inline = true
 					},
 					{
 						name = "",
 						value = os.date("\n[Data]: %d/%m/%Y [Hora]: %H:%M:%S"),
 						inline = false
 					}
-				}	
+				}
 			}
 		end
 	},
@@ -1621,27 +1621,27 @@ Logs = {
 				color = WebHookColor,
 				fields = {
 					{
-					name = "Jogador",
-					value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
-					inline = true
+						name = "Jogador",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
+						inline = true
 					},
 					{
-					name = "Comando",
-					value = "```" .. args["1"] .. "```",
-					inline = false
+						name = "Comando",
+						value = "```" .. tostring(args["1"]) .. "```",
+						inline = false
 					},
 					{
 						name = "",
 						value = os.date("\n[Data]: %d/%m/%Y [Hora]: %H:%M:%S"),
 						inline = false
 					}
-				}	
+				}
 			}
 		end
 	},
 	["ChestSend"] = {
 		link = "https://discord.com/api/webhooks/1362828011602448575/Rttx1Lrm0W7T6fGOKJ3HhUUWOzG6e_5yZ8x0WPlPPZkz8DCU2okRjDjAzf2O021fbf3J",
-		embed = function(userPerformed,userSuffered,args)	
+		embed = function(userPerformed,userSuffered,args)
 			return {
 				title = "Colocou no Baú",
 				description = "O jogador colocou um item no baú",
@@ -1649,22 +1649,22 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Organização",
-						value = "```" ..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
 						name = "Item",
-						value = "```"..args["2"].."```",
+						value = "```" .. tostring(args["2"]) .. "```",
 						inline = true
 					},
 					{
 						name = "Quantidade",
-						value = "```"..args["3"].."```",
+						value = "```" .. tostring(args["3"]) .. "```",
 						inline = true
 					},
 					{
@@ -1686,22 +1686,22 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Organização",
-						value = "```" ..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
 						name = "Item",
-						value = "```"..args["2"].."```",
+						value = "```" .. tostring(args["2"]) .. "```",
 						inline = true
 					},
 					{
 						name = "Quantidade",
-						value = "```"..args["3"].."```",
+						value = "```" .. tostring(args["3"]) .. "```",
 						inline = true
 					},
 					{
@@ -1722,32 +1722,32 @@ Logs = {
 				fields = {
 					{
 						name = "Jogador",
-						value = "```" .. userPerformed.id .. " - " .. userPerformed.name .. " " .. userPerformed.surname .. "```",
+						value = "```" .. tostring(userPerformed.id) .. " - " .. tostring(userPerformed.name) .. " " .. tostring(userPerformed.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Outro Jogador",
-						value = "```" .. userSuffered.id .. " - " .. userSuffered.name .. " " .. userSuffered.surname .. "```",
+						value = "```" .. tostring(userSuffered.id) .. " - " .. tostring(userSuffered.name) .. " " .. tostring(userSuffered.surname) .. "```",
 						inline = true
 					},
 					{
 						name = "Item",
-						value = "```"..args["1"].."```",
+						value = "```" .. tostring(args["1"]) .. "```",
 						inline = true
 					},
 					{
 						name = "Quantidade",
-						value = "```"..args["2"].."```",
+						value = "```" .. tostring(args["2"]) .. "```",
 						inline = true
 					},
 					{
 						name = "",
 						value = os.date("\n[Data]: %d/%m/%Y [Hora]: %H:%M:%S"),
-						inline = false 
+						inline = false
 					}
 				}
 			}
-		end	
+		end
 	}
 }
 
@@ -1760,7 +1760,7 @@ exports("SendLog",function(nameLog,userPerformedId,userSufferedId,args)
 				surname = userPerformed.name2 or " ",
 				id = userPerformedId
 			}
-        else 
+        else
 			userPerformed = {}
         	userPerformed.id = userPerformedId
 		end
@@ -1776,11 +1776,7 @@ exports("SendLog",function(nameLog,userPerformedId,userSufferedId,args)
             userSuffered.id = userSufferedId
         end
 		if userPerformed and not userPerformed.name then
-			-- print('')
-			-- print("^1LOG SYSTEM ERROR")
-			-- print("^1REASON: ^7Configuração errada!")
-			-- print("^1LOG:^7 "..nameLog)
-			return false 
+			return false
 		end
 		Wait(1000)
 		PerformHttpRequest(Logs[nameLog].link, function (err, data)
@@ -1790,17 +1786,10 @@ exports("SendLog",function(nameLog,userPerformedId,userSufferedId,args)
 				{ ['Content-Type'] = 'application/json' })
 				return true
 			else
-				-- print('')
-				-- print("^1LOG SYSTEM ERROR")
-				-- print("^1REASON: ^7Webhook invalida!")
-				-- print("^1LOG:^7 "..nameLog)
 				return false
 			end
 		end)
 		return
     end
-	-- print('')
-	-- print("^1LOG SYSTEM ERROR")
-	-- print("^1REASON: ^7A log ^2"..nameLog.." ^7não existe na configuração!")
 	return false
 end)

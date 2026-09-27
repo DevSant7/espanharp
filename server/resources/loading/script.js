@@ -1,17 +1,84 @@
 // ==========================================
-// 1. CONTROLE DO PLAYER DE MÚSICA
+// DEBUG COMPLETO
 // ==========================================
+console.log('=== DEBUG LOADSCREEN ===');
+console.log('Página carregou:', new Date().toLocaleTimeString());
+
+const video = document.getElementById('bg-video');
 const audio = document.getElementById('bg-audio');
 const playPauseBtn = document.getElementById('play-pause-btn');
 const muteBtn = document.getElementById('mute-btn');
 const volumeSlider = document.getElementById('volume-slider');
 
-audio.volume = volumeSlider.value / 100;
+console.log('Elemento vídeo:', video);
+console.log('Elemento áudio:', audio);
 
-audio.play().catch(function (err) {
-    console.log("Autoplay bloqueado, aguardando interação do usuário.");
-    playPauseBtn.classList.replace('fa-pause', 'fa-play');
-});
+if (video) {
+    console.log('Vídeo src:', video.querySelector('source')?.src);
+
+    video.addEventListener('loadedmetadata', () => {
+        console.log('✅ loadedmetadata — duração:', video.duration);
+    });
+    video.addEventListener('loadeddata', () => {
+        console.log('✅ loadeddata — vídeo pronto');
+    });
+    video.addEventListener('canplay', () => {
+        console.log('✅ canplay — pode tocar');
+    });
+    video.addEventListener('playing', () => {
+        console.log('✅ playing — vídeo rodando!');
+    });
+    video.addEventListener('error', (e) => {
+        console.error('❌ ERRO no vídeo');
+        console.error('  Código:', video.error?.code);
+        console.error('  Mensagem:', video.error?.message);
+        // Códigos: 1=ABORTED, 2=NETWORK, 3=DECODE, 4=SRC_NOT_SUPPORTED
+    });
+}
+
+// ==========================================
+// FORÇA O VÍDEO A TOCAR
+// ==========================================
+function forcarVideo() {
+    if (!video) return;
+    video.muted = true;
+    video.playsInline = true;
+    video.setAttribute('playsinline', '');
+    video.setAttribute('webkit-playsinline', '');
+
+    console.log('Tentando dar play. Estado:', video.paused ? 'pausado' : 'rodando');
+
+    const tentativa = video.play();
+    if (tentativa !== undefined) {
+        tentativa.then(() => {
+            console.log('✅ play() resolveu com sucesso');
+        }).catch(err => {
+            console.error('❌ play() falhou:', err.name, '-', err.message);
+            setTimeout(() => {
+                video.play().then(() => console.log('✅ 2ª tentativa OK')).catch(() => {});
+            }, 500);
+        });
+    }
+}
+
+document.addEventListener('DOMContentLoaded', forcarVideo);
+window.addEventListener('load', forcarVideo);
+setTimeout(forcarVideo, 200);
+setTimeout(forcarVideo, 1000);
+setTimeout(forcarVideo, 3000);
+
+// ==========================================
+// ÁUDIO
+// ==========================================
+if (audio) {
+    audio.volume = volumeSlider.value / 100;
+    audio.play().then(() => {
+        console.log('✅ Áudio rodando');
+    }).catch((err) => {
+        console.log('❌ Áudio bloqueado:', err.name);
+        playPauseBtn.classList.replace('fa-pause', 'fa-play');
+    });
+}
 
 playPauseBtn.addEventListener('click', () => {
     if (audio.paused) {
@@ -45,7 +112,7 @@ muteBtn.addEventListener('click', () => {
 });
 
 // ==========================================
-// 2. SINCRONIZAÇÃO COM O CARREGAMENTO DO FIVEM
+// SINCRONIZAÇÃO FIVEM
 // ==========================================
 const progressFill = document.getElementById('progress-fill');
 const progressText = document.getElementById('progress-text');
@@ -53,22 +120,15 @@ const loadingSub = document.getElementById('loading-sub');
 
 let shutdownCalled = false;
 
-// 🔥 Mata a tela de loading do FiveM (as 2 funções)
 function killFiveMLoadscreen() {
     try {
-        if (typeof ShutdownLoadingScreenNui === 'function') {
-            ShutdownLoadingScreenNui();
-        }
-    } catch (e) { console.log("ShutdownLoadingScreenNui:", e); }
-    
+        if (typeof ShutdownLoadingScreenNui === 'function') ShutdownLoadingScreenNui();
+    } catch (e) {}
     try {
-        if (typeof ShutdownLoadingScreen === 'function') {
-            ShutdownLoadingScreen();
-        }
-    } catch (e) { console.log("ShutdownLoadingScreen:", e); }
+        if (typeof ShutdownLoadingScreen === 'function') ShutdownLoadingScreen();
+    } catch (e) {}
 }
 
-// 🔥 Sempre que o progresso atualizar, atualiza a barra
 window.addEventListener('message', function (e) {
     if (e.data.eventName === 'loadProgress') {
         let loadPercentage = Math.floor(e.data.loadFraction * 100);
@@ -77,7 +137,6 @@ window.addEventListener('message', function (e) {
         progressFill.style.width = loadPercentage + '%';
         progressText.innerText = loadPercentage + '%';
 
-        // 🔥 Quando chegar a 100%, mata a tela
         if (loadPercentage >= 100 && !shutdownCalled) {
             shutdownCalled = true;
             setTimeout(killFiveMLoadscreen, 200);
@@ -91,8 +150,6 @@ window.addEventListener('message', function (e) {
     }
 });
 
-// 🔥 Fallback: se por algum motivo o progresso não chegar a 100%,
-// mata a tela depois de 60 segundos
 setTimeout(function () {
     if (!shutdownCalled) {
         shutdownCalled = true;

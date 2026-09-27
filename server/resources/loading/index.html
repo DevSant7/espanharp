@@ -9,11 +9,13 @@
 </head>
 <body>
 
-    <video id="bg-video" autoplay loop muted playsinline>
-        <source src="video.mp4" type="video/mp4">
+    <!-- ✅ VÍDEO LOCAL (funciona sempre) -->
+    <video id="bg-video" autoplay loop muted playsinline preload="auto">
+        <source src="load.mp4" type="video/mp4">
     </video>
 
-    <audio id="bg-audio" autoplay loop>
+    <!-- ✅ ÁUDIO LOCAL (também dentro da resource) -->
+    <audio id="bg-audio" autoplay loop preload="auto">
         <source src="audio.mp3" type="audio/mp3">
     </audio>
 

@@ -1,6 +1,6 @@
 Config = {
     Color = {60, 142, 220},
-    AssetsUrl = "http://localhost/character/",
+    AssetsUrl = "http://82.24.40.124/character/",
 
     Anim = {
         Dict = "move_f@multiplayer",

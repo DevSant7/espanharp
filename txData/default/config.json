@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "general": {
+    "serverName": "Espanha Roleplay"
+  },
+  "server": {
+    "dataPath": "C:/Users/Administrator/Documents/espanharp/server/"
+  }
+}
